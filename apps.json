@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.0.0",
-      "versionDate": "2026-09-02T00:00:00Z",
-      "versionDescription": "YouTube Music özellikleri eklendi: şarkı sözleri, şarkı radyosu, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı, sıralama (queue) görünümü, dinleme geçmişi ve çalma listesine hızlı ekleme.",
+      "version": "2.1.3",
+      "versionDate": "2026-09-16T00:00:00Z",
+      "versionDescription": "Melody 2.1.3: açık/koyu tema + 5 vurgu rengi, dinamik ses kalitesi, ekolayzer hazır ayarları, manuel çevrimdışı mod, otomatik devam ve arayüz iyileştirmeleri.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
