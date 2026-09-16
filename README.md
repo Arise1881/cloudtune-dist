@@ -1,80 +1,150 @@
-# 🎵 Melody - iOS Kurulum Rehberi
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png" width="120" height="120" alt="Melody">
+  <h1 align="center">🎵 Melody</h1>
+  <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
+  <p align="center">
+    <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.1.4%20(31)-1E88E5?style=flat-square"></a>
+    <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
+  </p>
+</p>
 
-Spotify tarzı, açık kaynak (GPL-3.0) müzik uygulaması.
+> **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
+> premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 
-## ✨ Özellikler (v2.0.0)
-
-- 🎧 **En iyi ses kalitesi** — platforma göre en iyi akışı seçer (Android/PC: Opus öncelikli, ~160 kbps; iPhone: her zaman çalabilen en iyi AAC); ses asla transkode edilmez
-- 🎚️ **Ses kalitesi seçimi** — Otomatik / Yüksek / Orta / Düşük
-- 📝 **Şarkı sözleri** — eş zamanlı senkron söz görüntüleme
-- 📻 **Şarkı radyosu** — sevdiğin şarkıya benzer sonsuz çalma listesi
-- 🎤 **Sanatçı sayfaları** — sanatçı diskografisine tek ekrandan göz at
-- 🔢 **Sıralama (Queue) görünümü** — şimdi çalıyor ekranında sırayı gör/düzenle
-- ⏰ **Uyku zamanlayıcısı** — 10dk–2sa arası otomatik durdurma
-- 📊 **Dinleme geçmişi** — son çalınanlar
-- ➕ **Çalma listesine hızlı ekleme** — her şarkıdan tek tıkla
-- ✨ **Premium arayüz** — çalan şarkının kapağına göre değişen aurora arka plan
-- ⬇️ **Çevrimdışı dinleme** — şarkı/liste indir, internetsiz dinle
-- 🔍 **Sınırsız müzik** — milyonlarca şarkıyı ara ve çal
-- 🎧 **Spotify içe aktarma** — Spotify listelerini tek tıkla taşı
-- 🎚️ **Ekolayzır** — bass/vokal ayarları ve hazır profiller
-- 🎨 **Tema desteği** — dinamik renk + saf siyah (AMOLED)
-- 🔗 **Çalma listesi paylaşımı** — tek linkle paylaş
-- 🌍 **Türkçe dahil çoklu dil**
-
-## ⬇️ İndirme Linkleri
-
-| Dosya | Link |
-|-------|------|
-| 🤖 APK (Android) | [Melody.apk indir](../../releases/download/melody-latest/Melody.apk) |
-| 📦 IPA (iOS) | [Melody.ipa indir](../../releases/download/melody-latest/Melody.ipa) |
-| 🐧 DEB (Linux Mint/Ubuntu) | [melody_2.1.4_amd64.deb indir](../../releases/download/melody-latest/melody_2.1.4_amd64.deb) |
-| 🐧 Tar.gz (taşınabilir) | [Melody-linux.tar.gz indir](../../releases/download/melody-latest/Melody-linux.tar.gz) |
-| 🪟 Windows 11 | GitHub Actions ile `Melody-windows.zip` → [melody kod reposu](../../../melody) `win+release` |
-| 🌐 Tanıtım sayfası | [arise1881.github.io/melody-dist](https://arise1881.github.io/melody-dist/) |
-
-## 📲 iPhone'a Kurulum — 4 Yol
-
-> 🎬 **Video rehber:** Türkçe sesli anlatımlı, bilgisayarsız kurulum videosu (4:50 dk): [Melody-iOS-Kurulum.mp4 indir](../../releases/download/kurulum-videolari-v1/Melody-iOS-Kurulum.mp4)
-
-### Yol A: PC'siz Kurulum (SideStore) — önerilen, bilgisayar gerekmez
-Apple, QR/tarayıcıdan inen `.ipa`'nın direkt kurulmasına izin vermez; bu yüzden cihaza önce bir "imzalayıcı" (SideStore) kurulur. Kurulunca Melody ve güncellemeleri tamamen PC'siz:
-1. **iOS 27+:** Tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller/) → uygulamayı kur → Apple ID ile gir → **Install SideStore**
-   **iOS 26 ve altı (gri alan):** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala (sertifika iptalleri yaşanabilir)
-2. SideStore → **Settings → Sources** → ekle:
-   `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
-3. Kaynak listesinden **Melody** → **Install** → Apple ID onayı ✅
-4. Sonrasında 7 günlük imza yenilemesi SideStore tarafından WiFi üzerinden otomatik yapılır
-
-### Yol B: PC'siz (gri alan) — ESign/Scarlet gibi cihaz-içi imzalayıcılar
-İnternetteki imza servisleri cihazda imzalar, "Profil/cihaz yönetimi" ile kurarsın. PC gerekmez ama ticari/kırık sertifika kullanır; Apple zaman zaman iptal eder → **güvenilir değil ve iOS 26'da çalışması garanti edilemez.**
-
-### Yol C: AltStore ile (ilk kurulumda tek seferlik bilgisayar)
-1. Telefonunda **AltStore** kuruluysa: bu linki aç →
-   `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
-2. Kaynak eklenince listede **Melody** görünür → **Free** → **Install**
-3. Apple ID'nle onayla, biter ✅
-
-### Yol D: Sideloadly ile (Windows/Mac + USB)
-1. [sideloadly.io](https://sideloadly.io) indir
-2. iPhone'u USB ile bağla
-3. `Melody.ipa` dosyasını pencereye sürükle
-4. Apple ID gir → **Start** → biter ✅
-
-### Yol E: TrollStore (iOS 14.0–16.6.1 / 17.0)
-İmzasız IPA olduğu gibi kurulur: dosyayı TrollStore ile aç.
-
-## 🐧 Masaüstü Kurulum (Linux)
-
-- **Linux Mint/Ubuntu**: `.deb` dosyasına çift tıkla → **Kur** (veya: `sudo apt install ./melody_2.1.4_amd64.deb`)
-- Menüde "Melody" olarak görünür, ses için sistemde mpv kütüphanesi yeterlidir (Mint/Ubuntu'da hazır gelir)
-
-## ❓ Sık Sorulanlar
-
-**Ücretli mi?** Hayır. Ücretsiz Apple ID ile kurulur.
-**Ne kadar geçerli?** Ücretsiz imza 7 gün geçerlidir; SideStore/AltStore aynı WiFi'dayken otomatik yeniler.
-**Geliştirici Modu?** iOS 16+ cihazlarda ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç.
+**Sürüm:** 2.1.4 (build 31) · **Yayın:** `melody-latest`
 
 ---
 
+## ✨ Özellikler
 
+### 🖤 Çalma
+- ✅ **Sonsuz otomatik çalma** — şarkı biter, benzer şarkılar hiç susmadan gelir
+- ✅ **Arka plan çalma** — ekran kilitli / uygulama kapalıyken devam eder
+- ✅ **Kilit ekranı + bildirim kontrolleri** (play / pause / ileri / geri)
+- ✅ **Oynatma hızı** — 0.5x – 2x (6 kademe, kalıcı)
+- ✅ **Crossfade** — 2–10 sn yumuşak geçiş (ayarlanabilir)
+- ✅ **Karıştır / Tekrar**, **oturum kaldırma** (kapatılan şarkı aynı konumdan döner)
+- ✅ **Akıllı ön-çözümleme** — sıradaki şarkı şarkı bitmeden hazırlanır → anında geçiş
+
+### 🎛 Ses
+- ✅ **5 kalite kademesi** — Auto / Ultra (lossless) / Yüksek 320kbps / Orta / Düşük
+- ✅ **7 bant ekolayzer** — Flat, Pop, Rock, Jazz, Klasik, Bas, Vokal
+- ✅ Ses **asla transkode edilmez**; platforma göre en iyi akış otomatik seçilir
+
+### 📚 Kitaplık
+- ✅ Canlı arama + son aramalar
+- ✅ Çevrimdışı indirmeler (ilerleme + boyut takibi)
+- ✅ Favoriler · çalma listeleri (oluştur/adlandır/sil) · dinleme geçmişi
+- ✅ Şarkı radyosu · şarkı sözleri (eş zamanlı vurgulu) · sanatçı sayfaları
+- ✅ Sıralama (queue) görünümü — sırala, kaldır, yeniden düzenle
+
+### 🌍 Bağlantı
+- ✅ **Oda sistemi** — kodla katıl, senkronize dinle
+- ✅ **Manuel çevrimdışı mod** — yalnızca indirilenler
+- ✅ **OTA güncelleme** — açılışta otomatik kontrol, tek dokunuşla kurulum
+- ✅ **Uyku zamanlayıcısı** — 5dk – 1sa
+
+### 🎨 Arayüz
+- ✅ Karanlık / Açık tema · 5 vurgu rengi (Yeşil, Mavi, Mor, Kırmızı, Turuncu)
+- ✅ Trend ana sayfa (küratörlü yatay akış) · mini oynatıcı · dinamik arka plan
+
+---
+
+## ⬇️ İndirme
+
+### Android
+
+| Dosya | Boyut | Link |
+|---|---|---|
+| Melody.apk (arm64 — önerilir) | 21 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk) |
+| Melody-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk) |
+
+> Kurulum: APK'yı indir → aç → izin ver → kur. Açılırken "Bilinmeyen kaynak" izni istenebilir.
+> 📱 <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/apk-qr.png" width="64" align="center"> QR ile doğrudan telefonda indirme için de bu görsele bakabilirsin.
+
+### iPhone / iPad
+
+| Dosya | Link |
+|---|---|
+| Melody.ipa | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa) |
+
+Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
+
+- **A (önerilen, PC gerekmez) — SideStore:**
+  1. **iOS 27+:** tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller) → uygulamayı kur → **Install SideStore** · **iOS 26 ve altı:** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala
+  2. SideStore → **Settings → Sources** → ekle:
+     `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
+  3. Kaynaktan **Melody** → **Install** → Apple ID onayı ✅
+  4. 7 günlük imza yenilemesi WiFi ile otomatik yapılır
+- **C: AltStore** → aynı kaynak linkini telefonda aç → listeden Melody → **Install** (ilk kurulumda tek seferlik bilgisayar).
+- **D: Sideloadly (Windows/Mac + USB)** → [sideloadly.io](https://sideloadly.io) → IPA'yı pencereye sürükle → Apple ID → Start.
+
+> iOS 16+ ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → **Geliştirici Modu** aç.
+> iOS 14–16.6.1/17.0 TrollStore kullanıcıları: IPA'yı TrollStore ile aç.
+
+### Linux Mint / Ubuntu / Debian
+
+| Dosya | Link |
+|---|---|
+| `.deb` | [**melody_2.1.4_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.4_amd64.deb) |
+| Taşınabilir tar.gz | [**Melody-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-linux.tar.gz) |
+
+```bash
+sudo apt install ./melody_2.1.4_amd64.deb   # menüde "Melody" görünür
+# veya
+tar -xzf Melody-linux.tar.gz && ./bundle/melody
+```
+
+### Windows 11
+
+| Dosya | Link |
+|---|---|
+| `Melody-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-windows.zip) |
+
+Kurulum, 3 adım:
+
+1. ZIP'i yukarıdaki **İndir** butonuyla al (henüz listede yoksa, yayın sürecinde üretilir — birkaç dakika sonra tekrar kontrol et).
+2. ZIP'i çıkart → `melody.exe` dosyasını çalıştır.
+3. İlk açılışta Windows "Korumalı" (SmartScreen) uyarısı verebilir → **Yine de Çalıştır**. Uygulama kurulum gerektirmez; klasörü nereye istersen oraya taşı.
+
+Kurulum istemiyorsan kaynaktan derle: **Flutter SDK + Visual Studio 2022 (C++ masaüstü geliştirme iş yükü)** kur → `flutter build windows --release` → `build\windows\x64\runner\Release\melody.exe`.
+
+---
+
+## 📲 Çevrimiçi Güncelleme (OTA)
+
+Bu sayfanın `update.json` dosyası Pages üzerinden sunulur:
+
+```
+https://arise1881.github.io/melody-dist/update.json
+```
+
+1. Uygulama açıldığında manifest kontrol edilir (varsayılan 10dk önbellek).
+2. Yeni sürüm varsa banner görünür → **İndir + Kur**.
+3. Güncelleme ayrı oturumda tamamlanır; müzik ve veriler etkilenmez.
+
+> Sürüm eskiliği: 2.1.3 ve altı → kullanıcı yine daha taze olan 2.1.4'e güncellenir.
+
+---
+
+## 🏗 Yansıtılan Yapı
+
+```
+melody-dist/            ← bu yayın reposu (manifest + indirmeler)
+├── update.json         OTA manifest (sürüm/code/URL'ler)
+├── apps.json           AltStore kaynağı (iOS)
+├── index.html          GitHub Pages tanıtım sayfası
+├── icon.png / header.png / apk-qr.png / ipa-qr.png
+└── README.md           ← kurulum rehberi
+```
+
+## ⚖️ Yasal
+
+Açık kaynak, tamamen kişisel kullanım. Uygulama hiçbir içeriği barındırmaz;
+indirilen içeriklerin kullanımından geliştirici sorumlu değildir, telif haklarına uyun.
+
+## 📄 Lisans
+
+MIT
