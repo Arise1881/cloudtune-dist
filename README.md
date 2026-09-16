@@ -13,7 +13,7 @@
 > **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 
-**Sürüm:** 2.1.4 (build 31) · **Yayın:** `melody-latest`
+**Sürüm:** 2.1.5 (build 31) · **Yayın:** `melody-latest`
 
 ---
 
@@ -49,6 +49,10 @@
 ### 🎨 Arayüz
 - ✅ Karanlık / Açık tema · 5 vurgu rengi (Yeşil, Mavi, Mor, Kırmızı, Turuncu)
 - ✅ Trend ana sayfa (küratörlü yatay akış) · mini oynatıcı · dinamik arka plan
+
+## ⚙️ Varsayılan Ayarlar
+- **Müzik Kalitesi:** Uygulama açıldığında otomatik olarak **Ultra (lossless)** kalitede çalınır. Daha düşük kalite tercih ederseniz ayarlarından değiştirebilirsiniz.
+- **Çevrimdışı Başlangıç:** Uygulama ilk açıldığında veya internet kesildiğinde, önceki oturumda indirilen şarkıdan devam eder. Yeni şarkı araması yapmadan mevcut indirilen listesini kullanır.
 
 ---
 
