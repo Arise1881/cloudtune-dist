@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.1.5",
-      "versionDate": "2026-09-17T00:00:00Z",
-      "versionDescription": "Melody 2.1.5: beyaz ekran duzeltildi, hizli acilis, varsayilan ulta kalite, cevrimdisi devam",
+      "version": "2.1.6",
+      "versionDate": "2026-09-17T01:50:00Z",
+      "versionDescription": "Melody 2.1.6: ana sayfa beyaz ekran duzeltildi, ulta kalite, cevrimdisi devam",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
