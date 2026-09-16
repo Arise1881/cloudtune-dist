@@ -4,7 +4,7 @@
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
     <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.1.4%20(31)-1E88E5?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.1.5%20(32)-1E88E5?style=flat-square"></a>
     <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
   </p>
@@ -13,7 +13,7 @@
 > **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 
-**Sürüm:** 2.1.5 (build 31) · **Yayın:** `melody-latest`
+**Sürüm:** 2.1.5 (build 32) · **Yayın:** `melody-latest`
 
 ---
 
@@ -92,11 +92,11 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 | Dosya | Link |
 |---|---|
-| `.deb` | [**melody_2.1.4_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.4_amd64.deb) |
+| `.deb` | [**melody_2.1.5_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.5_amd64.deb) |
 | Taşınabilir tar.gz | [**Melody-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-linux.tar.gz) |
 
 ```bash
-sudo apt install ./melody_2.1.4_amd64.deb   # menüde "Melody" görünür
+sudo apt install ./melody_2.1.5_amd64.deb   # menüde "Melody" görünür
 # veya
 tar -xzf Melody-linux.tar.gz && ./bundle/melody
 ```
@@ -129,7 +129,7 @@ https://arise1881.github.io/melody-dist/update.json
 2. Yeni sürüm varsa banner görünür → **İndir + Kur**.
 3. Güncelleme ayrı oturumda tamamlanır; müzik ve veriler etkilenmez.
 
-> Sürüm eskiliği: 2.1.3 ve altı → kullanıcı yine daha taze olan 2.1.4'e güncellenir.
+> Sürüm eskiliği: 2.1.4 ve altı → kullanıcı otomatik 2.1.5'e güncellenir.
 
 ---
 
