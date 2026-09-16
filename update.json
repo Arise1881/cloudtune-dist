@@ -1,1 +1,11 @@
-{"version": "2.1.3", "versionCode": 30, "notes": "Melody 2.1.3 - Son g\u00fcncelleme, hata d\u00fczeltmeleri ve performans iyile\u015ftirmeleri", "platforms": {"android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk", "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk", "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.3_amd64.deb", "ios": "altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json"}}
+{
+  "version": "2.1.4",
+  "versionCode": 31,
+  "notes": "Melody 2.1.4 - oynatma hizi, crossfade ayari, uyku zamanlayicisi UI, kuyruk sirala/sil, onbellek temizleme, Windows 11 destegi, hizli acilis",
+  "platforms": {
+    "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
+    "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",
+    "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.4_amd64.deb",
+    "ios": "altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json"
+  }
+}
