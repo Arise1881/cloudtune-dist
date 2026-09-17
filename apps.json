@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.2.4",
-      "versionDate": "2026-09-17T12:30:00Z",
-      "versionDescription": "Melody 2.2.4: calinamayan sarki artik otomatik atlanmiyor (durur + hata banner); aklis sunucusu (proxy) LANda otomatik kesfedilir; proxy oncelikli akis.",
+      "version": "2.2.5",
+      "versionDate": "2026-09-17T13:20:00Z",
+      "versionDescription": "Melody 2.2.5: akis sunucusu duzeltildi (video kimligi regex: _ ve - izinli) - artik tum sarkilar calma kaynagini cozuyor; akis sunucusu otomatik kesfi paralel ve daha hizli; emulator icin 10.0.2.2 destegi.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
