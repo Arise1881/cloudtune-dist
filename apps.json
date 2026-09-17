@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.2.1",
-      "versionDate": "2026-09-17T11:30:00Z",
-      "versionDescription": "Melody 2.2.1: tam onarim — ana sayfa/sanatci bolumleri zaman asimi, fallback arama ve Tekrar Dene; cozulemeyen sarkilar otomatik atlanir; indirmeler yedek akisla denenir ve sonuc bildirilir; tema acilista varsayilan karanlik.",
+      "version": "2.2.2",
+      "versionDate": "2026-09-17T13:30:00Z",
+      "versionDescription": "Melody 2.2.2: InnerTube + Invidious fallback ile reklamsiz akis ve arama; akis onceligi InnerTube player API -> Invidious -> youtube_explode; arama onceligi Invidious -> InnerTube -> youtube_explode; thumbnails yedekleri.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
