@@ -1,11 +1,11 @@
 {
-  "version": "2.1.6",
-  "versionCode": 33,
-  "notes": "Melody 2.1.6 - ana sayfa beyaz ekran / logo takilmasi kokten duzeltildi (Sliver layout), ulta kalite, cevrimdisi devam",
+  "version": "2.2.0",
+  "versionCode": 34,
+  "notes": "Melody 2.2.0",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
     "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",
-    "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.1.6_amd64.deb",
+    "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.0_amd64.deb",
     "ios": "altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json"
   }
 }
