@@ -1,11 +1,11 @@
 {
-  "version": "2.2.19",
-  "versionCode": 53,
-  "notes": "Melody 2.2.19",
+  "version": "2.2.20",
+  "versionCode": 54,
+  "notes": "Melody 2.2.20",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
     "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",
-    "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.19_amd64.deb",
+    "linux": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.20_amd64.deb",
     "ios": "altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json",
     "windows": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-windows.zip"
   }
