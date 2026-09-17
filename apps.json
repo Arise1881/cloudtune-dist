@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.2.2",
-      "versionDate": "2026-09-17T13:30:00Z",
-      "versionDescription": "Melody 2.2.2: InnerTube + Invidious fallback ile reklamsiz akis ve arama; akis onceligi InnerTube player API -> Invidious -> youtube_explode; arama onceligi Invidious -> InnerTube -> youtube_explode; thumbnails yedekleri.",
+      "version": "2.2.3",
+      "versionDate": "2026-09-17T11:40:00Z",
+      "versionDescription": "Melody 2.2.3: yt-dlp proxy sunucusu (melody-proxy) ile po_token destekli gercek akis; akis onceligi proxy -> Invidious latest_version -> InnerTube; indirme butonlari (ana sayfa, playlist, calan ekran); thumbnail CDN normalizasyon; acik ag erisimi.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
