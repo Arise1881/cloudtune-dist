@@ -92,11 +92,11 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 | Dosya | Link |
 |---|---|
-| `.deb` | [**melody_2.2.17_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.17_amd64.deb) |
+| `.deb` | [**melody_2.2.18_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.18_amd64.deb) |
 | Taşınabilir tar.gz | [**Melody-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-linux.tar.gz) |
 
 ```bash
-sudo apt install ./melody_2.2.17_amd64.deb   # menüde "Melody" görünür
+sudo apt install ./melody_2.2.18_amd64.deb   # menüde "Melody" görünür
 # veya
 tar -xzf Melody-linux.tar.gz && ./bundle/melody
 ```
