@@ -10,9 +10,9 @@
     {
       "name": "Melody",
       "bundleIdentifier": "com.melody.app",
-      "version": "2.2.43",
+      "version": "2.2.45",
       "versionDate": "2026-09-18T00:00:00Z",
-      "versionDescription": "Melody 2.2.43: sunucu/ proxy/ tünel katmani tamamen kaldirildi — uygulama %100 bagimsiz; akis Invidious / InnerTube / youtube_explode zinciri ile direkt cozuluyor, PC gerektirmiyor; wifi + mobil veride calisir.",
+      "versionDescription": "Melody 2.2.45: sunucu/ proxy/ tünel katmani tamamen kaldirildi (2.2.43) — uygulama %100 bagimsiz, PC gerektirmiyor. 2.2.44+: Invidious videos API (adaptiveFormats) birincil akis ajani; bot-challenge engeli kırıldi, ölü ornekler negatif onbellekle atlaniyor, timeout zinciri sona erdi. Wifi + mobil veride calisir.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 10649729,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",

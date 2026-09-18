@@ -1,7 +1,7 @@
 {
   "version": "2.2.45",
   "versionCode": 79,
-  "notes": "Melody 2.2.45",
+  "notes": "2.2.45: Sunucusuz akış iyileştirmesi — Invidious videos API (adaptiveFormats) birincil ajan, bot-challenge engeli kırıldı; ölü Invidious/Piped örnekleri ayıklandı (negatif önbellek 10dk); InnerTube po_token koruması için pasif yedekte; Windows/iOS derlemesi macOS/Windows gerektirir, mevcut sürüm kioskta.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
     "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",

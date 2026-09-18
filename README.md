@@ -4,7 +4,7 @@
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
     <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.1.6%20(33)-1E88E5?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.45%20(79)-1E88E5?style=flat-square"></a>
     <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
   </p>
@@ -13,7 +13,7 @@
 > **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 
-**Sürüm:** 2.1.6 (build 33) · **Yayın:** `melody-latest`
+**Sürüm:** 2.2.45 (build 79) · **Yayın:** `melody-latest`
 
 ---
 
@@ -70,6 +70,9 @@
 
 ### iPhone / iPad
 
+> **Durum:** iOS derlemesi macOS gerektirir; Linux üzerinde üretilemez.
+> Repo'daki `Melody.ipa` yalnızca dağıtım şablonudur, güncel iOS build değildir.
+
 | Dosya | Link |
 |---|---|
 | Melody.ipa | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa) |
@@ -103,6 +106,9 @@ tar -xzf Melody-linux.tar.gz && ./bundle/melody
 
 ### Windows 11
 
+> **Durum:** Windows derlemesi Windows makinesi gerektirir; Linux üzerinde üretilemez.
+> Windows assets yayına eklenince bu bölüm güncellenir.
+
 | Dosya | Link |
 |---|---|
 | `Melody-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-windows.zip) |
@@ -129,7 +135,7 @@ https://arise1881.github.io/melody-dist/update.json
 2. Yeni sürüm varsa banner görünür → **İndir + Kur**.
 3. Güncelleme ayrı oturumda tamamlanır; müzik ve veriler etkilenmez.
 
-> Sürüm eskiliği: 2.1.5 ve altı → kullanıcı otomatik 2.1.6'ya güncellenir.
+> Sürüm eskiliği: otomatik güncelleme, uygulama açılışında en son sürüm ile karşılaştırılır.
 
 ---
 
