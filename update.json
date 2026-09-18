@@ -1,7 +1,7 @@
 {
   "version": "2.2.50",
   "versionCode": 84,
-  "notes": "Melody 2.2.50",
+  "notes": "Melody 2.2.50: akış proxy desteği (operatör CDN engeli için), kararlılık iyileştirmeleri",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk",
     "android-universal": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk",

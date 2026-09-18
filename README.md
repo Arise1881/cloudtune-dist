@@ -4,7 +4,7 @@
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
     <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.45%20(79)-1E88E5?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.50%20(84)-1E88E5?style=flat-square"></a>
     <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
   </p>
@@ -13,7 +13,7 @@
 > **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 
-**Sürüm:** 2.2.45 (build 79) · **Yayın:** `melody-latest`
+**Sürüm:** 2.2.50 (build 84) · **Yayın:** `melody-latest`
 
 ---
 
@@ -70,8 +70,8 @@
 
 ### iPhone / iPad
 
-> **Durum:** iOS derlemesi macOS gerektirir; Linux üzerinde üretilemez.
-> Repo'daki `Melody.ipa` yalnızca dağıtım şablonudur, güncel iOS build değildir.
+> **Durum:** iOS derlemesi GitHub Actions (macOS runner) üzerinde otomatik üretilir ve
+> `Melody.ipa` olarak yayına eklenir. İmzasızdır; kurulum için SideStore/AltStore kendi imzalar.
 
 | Dosya | Link |
 |---|---|
@@ -106,8 +106,8 @@ tar -xzf Melody-linux.tar.gz && ./bundle/melody
 
 ### Windows 11
 
-> **Durum:** Windows derlemesi Windows makinesi gerektirir; Linux üzerinde üretilemez.
-> Windows assets yayına eklenince bu bölüm güncellenir.
+> **Durum:** Windows derlemesi GitHub Actions (windows runner) üzerinde otomatik üretilir
+> ve `Melody-windows.zip` olarak yayına eklenir.
 
 | Dosya | Link |
 |---|---|
