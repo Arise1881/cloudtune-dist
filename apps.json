@@ -1,7 +1,7 @@
 {
   "name": "Melody - Müzik Player",
   "subtitle": "Spotify tarzı açık kaynak müzik uygulaması",
-  "description": "Melody, açık kaynak bir müzik çalar. En iyi ses kalitesi, premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer, şarkı radyosu, şarkı sözleri, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı ve daha fazlası. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
+  "description": "Melody, açık kaynak bir müzik çalar. En iyi ses kalitesi, premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer, şarkı radyosu, şarkı sözleri, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı ve daha fazlası. Varsayılan katalog Audius + Internet Archive (sunucusuz, sunucu gerekmez); YouTube ayrıca kişisel olarak açılabilir. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
   "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/header.png",
   "tintColor": "1DB954",
@@ -12,7 +12,7 @@
       "bundleIdentifier": "com.melody.app",
       "version": "2.2.50",
       "versionDate": "2026-09-19T00:00:00Z",
-      "versionDescription": "Melody 2.2.50: operatör googlevideo CDN engeli için ücretsiz Cloudflare Workers akış proxy'si eklendi (varsayılan gömülü, PC gerekmez). iOS + Windows derlemeleri GitHub Actions ile otomatik üretiliyor. Wifi ve mobil veride çalışır.",
+      "versionDescription": "Melody 2.2.50: varsayılan katalog Audius + Internet Archive (keyless, sunucusuz, hızlı tek istek akış). YouTube kişisel kaynak olarak ayarlardan açılır. Ana sayfa Audius trendlerini kullanır, arama Audius->IA->YouTube sırasındadır. Android APK + Linux tgz güncellendi.",
       "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
       "size": 8995502,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
