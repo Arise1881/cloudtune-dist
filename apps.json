@@ -10,7 +10,7 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.53",
+      "version": "2.2.54",
       "versionDate": "2026-09-21T00:00:00Z",
       "versionDescription": "CloudTune 2.2.53+88: repos cloudtune-dist, OTA guncellendi; yeni marka ikonu, onarim botu (10 sn), AI asistan.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
