@@ -1,19 +1,20 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png" width="120" height="120" alt="Melody">
-  <h1 align="center">🎵 Melody</h1>
+  <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png" width="120" height="120" alt="CloudTune">
+  <h1 align="center">🎵 CloudTune</h1>
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
     <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.50%20(84)-1E88E5?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.51%20(86)-1E88E5?style=flat-square"></a>
     <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
   </p>
 </p>
 
-> **Melody**: milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
+> **CloudTune** (eski Melody): milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
+> İçindeki gizli **onarım botu** 10 saniyede bozuk akışları düzeltir; anasayfa **AI asistanı** şarkı önerir.
 
-**Sürüm:** 2.2.50 (build 84) · **Yayın:** `melody-latest`
+**Sürüm:** 2.2.51 (build 86) · **Yayın:** `melody-latest`
 
 ---
 
@@ -62,7 +63,7 @@
 
 | Dosya | Boyut | Link |
 |---|---|---|
-| Melody.apk (arm64 — önerilir) | 21 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.apk) |
+| Melody-apk-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-apk-arm64.apk) |
 | Melody-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk) |
 
 > Kurulum: APK'yı indir → aç → izin ver → kur. Açılırken "Bilinmeyen kaynak" izni istenebilir.
@@ -85,7 +86,7 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
      `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
   3. Kaynaktan **Melody** → **Install** → Apple ID onayı ✅
   4. 7 günlük imza yenilemesi WiFi ile otomatik yapılır
-- **C: AltStore** → aynı kaynak linkini telefonda aç → listeden Melody → **Install** (ilk kurulumda tek seferlik bilgisayar).
+- **C: AltStore** → aynı kaynak linkini telefonda aç → listeden CloudTune → **Install** (ilk kurulumda tek seferlik bilgisayar).
 - **D: Sideloadly (Windows/Mac + USB)** → [sideloadly.io](https://sideloadly.io) → IPA'yı pencereye sürükle → Apple ID → Start.
 
 > iOS 16+ ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → **Geliştirici Modu** aç.
@@ -95,13 +96,13 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 | Dosya | Link |
 |---|---|
-| `.deb` | [**melody_2.2.50_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.50_amd64.deb) |
+| `.deb` | [**melody_2.2.51+86_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.51+86_amd64.deb) |
 | Taşınabilir tar.gz | [**Melody-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-linux.tar.gz) |
 
 ```bash
-sudo apt install ./melody_2.2.50_amd64.deb   # menüde "Melody" görünür
+sudo apt install ./melody_2.2.51+86_amd64.deb   # menüde "CloudTune" görünür
 # veya
-tar -xzf Melody-linux.tar.gz && ./bundle/melody
+tar -xzf Melody-linux.tar.gz && ./cloudtune/cloudtune
 ```
 
 ### Windows 11

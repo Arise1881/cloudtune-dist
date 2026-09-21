@@ -1,1 +1,3 @@
-https://doubt-reflections-bend-prostate.trycloudflare.com
+CloudTune baglanti notlari (kişisel/anemon, kullanici UI sinda gizli):
+worker: https://cloudtune-repair-log.cloudtune-5b3.workers.dev (cloudflare, repair/device-report API)
+zone: cloudtune.app (CF, pending)
