@@ -2,10 +2,10 @@
   "name": "CloudTune - Müzik Player",
   "subtitle": "YouTube akışlı açık kaynak müzik uygulaması",
   "description": "CloudTune, açık kaynak bir müzik çalar. En iyi ses kalitesi, premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer, şarkı radyosu, şarkı sözleri, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı ve daha fazlası. Varsayılan katalog Audius + Internet Archive (sunucusuz, sunucu gerekmez); YouTube ayrıca kişisel olarak açılabilir. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
-  "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/header.png",
+  "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/header.png",
   "tintColor": "1DB954",
-  "website": "https://github.com/Arise1881/melody-dist",
+  "website": "https://github.com/Arise1881/cloudtune-dist",
   "apps": [
     {
       "name": "CloudTune",
@@ -13,9 +13,9 @@
       "version": "2.2.52",
       "versionDate": "2026-09-21T00:00:00Z",
       "versionDescription": "CloudTune 2.2.52+87: yeni marka ikonu, CloudTune adli paketler. YouTube akışı, onarım botu (10 sn), AI asistan, oda senkronizasyonu.",
-      "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune.ipa",
+      "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641189,
-      "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
       "tintColor": "1DB954",
       "appPermissions": {
         "entitlements": {}

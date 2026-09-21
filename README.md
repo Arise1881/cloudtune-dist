@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png" width="120" height="120" alt="CloudTune">
+  <img src="https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png" width="120" height="120" alt="CloudTune">
   <h1 align="center">🎵 CloudTune</h1>
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
@@ -14,7 +14,7 @@
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 > İçindeki gizli **onarım botu** 10 saniyede bozuk akışları düzeltir; anasayfa **AI asistanı** şarkı önerir.
 
-**Sürüm:** 2.2.51 (build 86) · **Yayın:** `melody-latest`
+**Sürüm:** 2.2.52 (build 87) · **Yayın:** `cloudtune-latest`
 
 ---
 
@@ -63,11 +63,11 @@
 
 | Dosya | Boyut | Link |
 |---|---|---|
-| CloudTune-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-arm64.apk) |
-| CloudTune-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-universal.apk) |
+| CloudTune-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk) |
+| CloudTune-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk) |
 
 > Kurulum: APK'yı indir → aç → izin ver → kur. Açılırken "Bilinmeyen kaynak" izni istenebilir.
-> 📱 <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/apk-qr.png" width="64" align="center"> QR ile doğrudan telefonda indirme için de bu görsele bakabilirsin.
+> 📱 <img src="https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apk-qr.png" width="64" align="center"> QR ile doğrudan telefonda indirme için de bu görsele bakabilirsin.
 
 ### iPhone / iPad
 
@@ -76,14 +76,14 @@
 
 | Dosya | Link |
 |---|---|
-| CloudTune.ipa | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune.ipa) |
+| CloudTune.ipa | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa) |
 
 Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 - **A (önerilen, PC gerekmez) — SideStore:**
   1. **iOS 27+:** tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller) → uygulamayı kur → **Install SideStore** · **iOS 26 ve altı:** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala
   2. SideStore → **Settings → Sources** → ekle:
-     `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
+     `altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json`
   3. Kaynaktan **CloudTune** → **Install** → Apple ID onayı ✅
   4. 7 günlük imza yenilemesi WiFi ile otomatik yapılır
 - **C: AltStore** → aynı kaynak linkini telefonda aç → listeden CloudTune → **Install** (ilk kurulumda tek seferlik bilgisayar).
@@ -96,8 +96,8 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 | Dosya | Link |
 |---|---|
-| `.deb` | [**CloudTune-linux.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-linux.deb) |
-| Taşınabilir tar.gz | [**CloudTune-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-linux.tar.gz) |
+| `.deb` | [**CloudTune-linux.deb indir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb) |
+| Taşınabilir tar.gz | [**CloudTune-linux.tar.gz indir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz) |
 
 ```bash
 sudo apt install ./CloudTune-linux.deb   # menüde "CloudTune" görünür
@@ -112,7 +112,7 @@ tar -xzf CloudTune-linux.tar.gz && ./cloudtune/cloudtune
 
 | Dosya | Link |
 |---|---|
-| `CloudTune-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-windows.zip) |
+| `CloudTune-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-windows.zip) |
 
 Kurulum, 3 adım:
 
@@ -129,7 +129,7 @@ Kurulum istemiyorsan kaynaktan derle: **Flutter SDK + Visual Studio 2022 (C++ ma
 Bu sayfanın `update.json` dosyası Pages üzerinden sunulur:
 
 ```
-https://arise1881.github.io/melody-dist/update.json
+https://arise1881.github.io/cloudtune-dist/update.json
 ```
 
 1. Uygulama açıldığında manifest kontrol edilir (varsayılan 10dk önbellek).
@@ -143,7 +143,7 @@ https://arise1881.github.io/melody-dist/update.json
 ## 🏗 Yansıtılan Yapı
 
 ```
-melody-dist/            ← bu yayın reposu (manifest + indirmeler)
+cloudtune-dist/         ← bu yayın reposu (CloudTune) (manifest + indirmeler)
 ├── update.json         OTA manifest (sürüm/code/URL'ler)
 ├── apps.json           AltStore kaynağı (iOS)
 ├── index.html          GitHub Pages tanıtım sayfası
