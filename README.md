@@ -63,8 +63,8 @@
 
 | Dosya | Boyut | Link |
 |---|---|---|
-| Melody-apk-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-apk-arm64.apk) |
-| Melody-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-universal.apk) |
+| CloudTune-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-arm64.apk) |
+| CloudTune-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-universal.apk) |
 
 > Kurulum: APK'yı indir → aç → izin ver → kur. Açılırken "Bilinmeyen kaynak" izni istenebilir.
 > 📱 <img src="https://raw.githubusercontent.com/Arise1881/melody-dist/main/apk-qr.png" width="64" align="center"> QR ile doğrudan telefonda indirme için de bu görsele bakabilirsin.
@@ -72,11 +72,11 @@
 ### iPhone / iPad
 
 > **Durum:** iOS derlemesi GitHub Actions (macOS runner) üzerinde otomatik üretilir ve
-> `Melody.ipa` olarak yayına eklenir. İmzasızdır; kurulum için SideStore/AltStore kendi imzalar.
+> `CloudTune.ipa` olarak yayına eklenir. İmzasızdır; kurulum için SideStore/AltStore kendi imzalar.
 
 | Dosya | Link |
 |---|---|
-| Melody.ipa | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa) |
+| CloudTune.ipa | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune.ipa) |
 
 Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
@@ -84,7 +84,7 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
   1. **iOS 27+:** tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller) → uygulamayı kur → **Install SideStore** · **iOS 26 ve altı:** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala
   2. SideStore → **Settings → Sources** → ekle:
      `altstore://source?url=https://raw.githubusercontent.com/Arise1881/melody-dist/main/apps.json`
-  3. Kaynaktan **Melody** → **Install** → Apple ID onayı ✅
+  3. Kaynaktan **CloudTune** → **Install** → Apple ID onayı ✅
   4. 7 günlük imza yenilemesi WiFi ile otomatik yapılır
 - **C: AltStore** → aynı kaynak linkini telefonda aç → listeden CloudTune → **Install** (ilk kurulumda tek seferlik bilgisayar).
 - **D: Sideloadly (Windows/Mac + USB)** → [sideloadly.io](https://sideloadly.io) → IPA'yı pencereye sürükle → Apple ID → Start.
@@ -96,31 +96,31 @@ Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
 
 | Dosya | Link |
 |---|---|
-| `.deb` | [**melody_2.2.51.86_amd64.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/melody_2.2.51.86_amd64.deb) |
-| Taşınabilir tar.gz | [**Melody-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-linux.tar.gz) |
+| `.deb` | [**CloudTune-linux.deb indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-linux.deb) |
+| Taşınabilir tar.gz | [**CloudTune-linux.tar.gz indir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-linux.tar.gz) |
 
 ```bash
-sudo apt install ./melody_2.2.51.86_amd64.deb   # menüde "CloudTune" görünür
+sudo apt install ./CloudTune-linux.deb   # menüde "CloudTune" görünür
 # veya
-tar -xzf Melody-linux.tar.gz && ./cloudtune/cloudtune
+tar -xzf CloudTune-linux.tar.gz && ./cloudtune/cloudtune
 ```
 
 ### Windows 11
 
 > **Durum:** Windows derlemesi GitHub Actions (windows runner) üzerinde otomatik üretilir
-> ve `Melody-windows.zip` olarak yayına eklenir.
+> ve `CloudTune-windows.zip` olarak yayına eklenir.
 
 | Dosya | Link |
 |---|---|
-| `Melody-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody-windows.zip) |
+| `CloudTune-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune-windows.zip) |
 
 Kurulum, 3 adım:
 
 1. ZIP'i yukarıdaki **İndir** butonuyla al (henüz listede yoksa, yayın sürecinde üretilir — birkaç dakika sonra tekrar kontrol et).
-2. ZIP'i çıkart → `melody.exe` dosyasını çalıştır.
+2. ZIP'i çıkart → `cloudtune.exe` dosyasını çalıştır.
 3. İlk açılışta Windows "Korumalı" (SmartScreen) uyarısı verebilir → **Yine de Çalıştır**. Uygulama kurulum gerektirmez; klasörü nereye istersen oraya taşı.
 
-Kurulum istemiyorsan kaynaktan derle: **Flutter SDK + Visual Studio 2022 (C++ masaüstü geliştirme iş yükü)** kur → `flutter build windows --release` → `build\windows\x64\runner\Release\melody.exe`.
+Kurulum istemiyorsan kaynaktan derle: **Flutter SDK + Visual Studio 2022 (C++ masaüstü geliştirme iş yükü)** kur → `flutter build windows --release` → `build\windows\x64\runner\Release\cloudtune.exe`.
 
 ---
 

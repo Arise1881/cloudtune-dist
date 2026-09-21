@@ -9,11 +9,11 @@
   "apps": [
     {
       "name": "CloudTune",
-      "bundleIdentifier": "com.melody.app",
-      "version": "2.2.50",
-      "versionDate": "2026-09-19T00:00:00Z",
-      "versionDescription": "Melody 2.2.50: varsayılan katalog Audius + Internet Archive (keyless, sunucusuz, hızlı tek istek akış). YouTube kişisel kaynak olarak ayarlardan açılır. Ana sayfa Audius trendlerini kullanır, arama Audius->IA->YouTube sırasındadır. Android APK + Linux tgz güncellendi.",
-      "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/Melody.ipa",
+      "bundleIdentifier": "com.cloudtune.app",
+      "version": "2.2.52",
+      "versionDate": "2026-09-21T00:00:00Z",
+      "versionDescription": "CloudTune 2.2.52+87: yeni marka ikonu, CloudTune adli paketler. YouTube akışı, onarım botu (10 sn), AI asistan, oda senkronizasyonu.",
+      "downloadURL": "https://github.com/Arise1881/melody-dist/releases/download/melody-latest/CloudTune.ipa",
       "size": 8995502,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/melody-dist/main/icon.png",
       "tintColor": "1DB954",
