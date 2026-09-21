@@ -14,7 +14,7 @@
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 > İçindeki gizli **onarım botu** 10 saniyede bozuk akışları düzeltir; anasayfa **AI asistanı** şarkı önerir.
 
-**Sürüm:** 2.2.52 (build 87) · **Yayın:** `cloudtune-latest`
+**Sürüm:** 2.2.53 (build 88) · **Yayın:** `cloudtune-latest`
 
 ---
 
