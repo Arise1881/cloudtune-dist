@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.61",
-      "versionDate": "2026-10-12T13:08:27Z",
-      "versionDescription": "CloudTune 2.2.53+88: repos cloudtune-dist, OTA guncellendi; yeni marka ikonu, onarim botu (10 sn), AI asistan.",
+      "version": "2.2.62",
+      "versionDate": "2026-11-13T00:00:00Z",
+      "versionDescription": "CloudTune 2.2.62+93: anasayfa bastan tasarlandi (buyuk selamlama + hap kisa yollar), alt gezinme bar kaldirildi (yatay kaydirmayla sekme gecisi), sar tasma seritleri ve baslangicta cokme kokten giderildi.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
