@@ -1,12 +1,12 @@
 {
-  "version": "2.2.68",
-  "versionCode": 95,
+  "version": "2.2.69",
+  "versionCode": 96,
   "appName": "CloudTune",
-  "notes": "CloudTune 2.2.68 (build 95): Spotify klonu yeniden tasarimi; canli arama, Sana Ozel mixler, koyu tema paleti",
+  "notes": "CloudTune 2.2.69 (build 96): Muzik oynatma sonladirma - sonsuz atlama dongusu cozuldu, kullanici tetiklemeli oynatma.",
   "platforms": {
-    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.68/CloudTune-arm64.apk",
-    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.68/CloudTune-armv7.apk",
-    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.68/CloudTune-x86_64.apk",
+    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.69/CloudTune-arm64.apk",
+    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.69/CloudTune-armv7.apk",
+    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.69/CloudTune-x86_64.apk",
     "android-universal": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk",
     "linux": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb",
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",

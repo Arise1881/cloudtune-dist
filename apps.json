@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.68",
+      "version": "2.2.69",
       "versionDate": "2026-11-13T00:00:00Z",
-      "versionDescription": "CloudTune 2.2.68+95: Spotify klonu yeniden tasarimi; arama motoru, Sana Ozel mix kartlari, yeni koyu tema paleti, arm64/armv7/x86_64 APK.",
+      "versionDescription": "CloudTune 2.2.69+96: Muzik oynatma sonlandirma - sonsuz atlama dongusu cozuldu, kullanici tetiklemeli oynatma.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
