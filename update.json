@@ -1,12 +1,12 @@
 {
-  "version": "2.2.73",
-  "versionCode": 100,
+  "version": "2.2.74",
+  "versionCode": 101,
   "appName": "CloudTune",
-  "notes": "CloudTune 2.2.73 (build 100): Crossfade gecikmesi azaltildi (4sn -> 2sn).",
+  "notes": "CloudTune 2.2.74 (build 101): Update servisi manifest URL guncellemesi (raw.githubusercontent).",
   "platforms": {
-    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.73/CloudTune-arm64.apk",
-    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.73/CloudTune-armv7.apk",
-    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.73/CloudTune-x86_64.apk",
+    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-arm64.apk",
+    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-armv7.apk",
+    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-x86_64.apk",
     "android-universal": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk",
     "linux": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb",
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",
