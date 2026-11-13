@@ -1,12 +1,12 @@
 {
-  "version": "2.2.71",
-  "versionCode": 98,
+  "version": "2.2.72",
+  "versionCode": 99,
   "appName": "CloudTune",
-  "notes": "CloudTune 2.2.71 (build 98): Now Playing hata banneri + retry, album kapaği aspect, home mix karti overflow.",
+  "notes": "CloudTune 2.2.72 (build 99): Anasayfa her 5 saniyede tazeleme.",
   "platforms": {
-    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.71/CloudTune-arm64.apk",
-    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.71/CloudTune-armv7.apk",
-    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.71/CloudTune-x86_64.apk",
+    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.72/CloudTune-arm64.apk",
+    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.72/CloudTune-armv7.apk",
+    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.72/CloudTune-x86_64.apk",
     "android-universal": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk",
     "linux": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb",
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",

@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.71",
+      "version": "2.2.72",
       "versionDate": "2026-11-13T00:00:00Z",
-      "versionDescription": "CloudTune 2.2.71+98: Now Playing hata banneri + retry, album kapaği aspect, home mix karti overflow.",
+      "versionDescription": "CloudTune 2.2.72+99: Anasayfa her 5 saniyede tazeleme.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
