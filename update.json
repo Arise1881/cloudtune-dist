@@ -1,12 +1,12 @@
 {
-  "version": "2.2.74",
-  "versionCode": 101,
+  "version": "2.2.75",
+  "versionCode": 102,
   "appName": "CloudTune",
-  "notes": "CloudTune 2.2.74 (build 101): Update servisi manifest URL guncellemesi (raw.githubusercontent).",
+  "notes": "CloudTune 2.2.75 (build 102): Update banner home ekranina baglandi.",
   "platforms": {
-    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-arm64.apk",
-    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-armv7.apk",
-    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.74/CloudTune-x86_64.apk",
+    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.75/CloudTune-arm64.apk",
+    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.75/CloudTune-armv7.apk",
+    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.75/CloudTune-x86_64.apk",
     "android-universal": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk",
     "linux": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb",
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",
