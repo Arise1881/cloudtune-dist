@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.69",
+      "version": "2.2.70",
       "versionDate": "2026-11-13T00:00:00Z",
-      "versionDescription": "CloudTune 2.2.69+96: Muzik oynatma sonlandirma - sonsuz atlama dongusu cozuldu, kullanici tetiklemeli oynatma.",
+      "versionDescription": "CloudTune 2.2.70+97: Ayarlar ekrani light mode tema duzeltmesi.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
