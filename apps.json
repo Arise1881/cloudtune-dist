@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "2.2.62",
+      "version": "2.2.67",
       "versionDate": "2026-11-13T00:00:00Z",
-      "versionDescription": "CloudTune 2.2.62+93: anasayfa bastan tasarlandi (buyuk selamlama + hap kisa yollar), alt gezinme bar kaldirildi (yatay kaydirmayla sekme gecisi), sar tasma seritleri ve baslangicta cokme kokten giderildi.",
+      "versionDescription": "CloudTune 2.2.67+94: Spotify klonu yeniden tasarımı; arama motoru, Sana Özel mix kartları, kütüphane hızlı erişim, yeni koyu tema paleti.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
