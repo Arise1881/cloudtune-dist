@@ -4,7 +4,7 @@
   <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
     <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.67%20(94)-1E88E5?style=flat-square"></a>
+    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.68%20(95)-1E88E5?style=flat-square"></a>
     <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
   </p>
@@ -14,7 +14,7 @@
 > premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
 > İçindeki gizli **onarım botu** 10 saniyede bozuk akışları düzeltir; anasayfa **AI asistanı** şarkı önerir.
 
-**Sürüm:** 2.2.67 (build 94) · **Yayın:** `cloudtune-latest`
+**Sürüm:** 2.2.68 (build 95) · **Yayın:** `cloudtune-latest`
 
 ---
 
