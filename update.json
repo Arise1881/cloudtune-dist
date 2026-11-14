@@ -1,12 +1,12 @@
 {
-  "version": "2.2.78",
-  "versionCode": 105,
+  "version": "3.0.0",
+  "versionCode": 200,
   "appName": "CloudTune",
-  "notes": "CloudTune 2.2.78 (build 105): Dinleme Ozeti eklendi.",
+  "notes": "CloudTune 3.0.0",
   "platforms": {
-    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.78/CloudTune-arm64.apk",
-    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.78/CloudTune-armv7.apk",
-    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/v2.2.78/CloudTune-x86_64.apk",
+    "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
+    "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
+    "android-x86_64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-x86_64.apk",
     "android-universal": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk",
     "linux": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb",
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",
