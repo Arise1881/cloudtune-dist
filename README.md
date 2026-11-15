@@ -1,160 +1,80 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png" width="120" height="120" alt="CloudTune">
   <h1 align="center">🎵 CloudTune</h1>
-  <p align="center"><b>Spotify temalı, açık kaynak, YouTube destekli müzik çalar</b></p>
+  <p align="center"><b>Açık kaynak, YouTube destekli müzik çalar</b></p>
   <p align="center">
-    <a href="#✨-özellikler"><img src="https://img.shields.io/badge/özellikler-40%2B-1DB954?style=flat-square"></a>
-    <a href="#⬇️-indirme"><img src="https://img.shields.io/badge/sürüm-2.2.78%20(105)-1E88E5?style=flat-square"></a>
-    <a href="#-çevrimiçi-güncelleme"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-MIT-1DB954?style=flat-square"></a>
+    <a href="#-indirme"><img src="https://img.shields.io/badge/indir-APK%20%2F%20DEB%20%2F%20IPA-1DB954?style=flat-square"></a>
+    <a href="https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/update.json"><img src="https://img.shields.io/badge/güncelleme-OTA-9C27B0?style=flat-square"></a>
+    <a href="../cloudtune"><img src="https://img.shields.io/badge/kaynak-kod-1E88E5?style=flat-square"></a>
   </p>
 </p>
 
-> **CloudTune** (eski Melody): milyonlarca şarkıyı arayıp çalan, indiren, **arka planda kesintisiz** dinleten,
-> premium arayüzlü açık kaynak müzik uygulaması. Android, iOS, Linux ve Windows 11 destekli.
-> İçindeki gizli **onarım botu** 10 saniyede bozuk akışları düzeltir; anasayfa **AI asistanı** şarkı önerir.
+**CloudTune**, şarkıları doğrudan YouTube üzerinden arayıp çalan, reklamsız ve
+açık kaynak bir müzik uygulamasıdır. Android, Linux ve Windows'ta çalışır;
+iOS derlemesi AltStore kaynağı üzerinden dağıtılır.
 
-**Sürüm:** 2.2.78 (build 105) · **Yayın:** `cloudtune-latest`
+Güncel sürüm ve indirme bağlantıları: **`update.json`** (uygulama içi
+güncelleme de bu dosyayı okur).
 
 ---
 
 ## ✨ Özellikler
 
-### 🖤 Çalma
-- ✅ **Sonsuz otomatik çalma** — şarkı biter, benzer şarkılar hiç susmadan gelir
-- ✅ **Arka plan çalma** — ekran kilitli / uygulama kapalıyken devam eder
-- ✅ **Kilit ekranı + bildirim kontrolleri** (play / pause / ileri / geri)
-- ✅ **Oynatma hızı** — 0.5x – 2x (6 kademe, kalıcı)
-- ✅ **Crossfade** — 2–10 sn yumuşak geçiş (ayarlanabilir)
-- ✅ **Karıştır / Tekrar**, **oturum kaldırma** (kapatılan şarkı aynı konumdan döner)
-- ✅ **Akıllı ön-çözümleme** — sıradaki şarkı şarkı bitmeden hazırlanır → anında geçiş
+### 🎧 Çalma
+- **Doğrudan YouTube** — aracı sunucu yok, akış doğrudan cihaza gelir
+- **Sonsuz radyo** — kuyruk bitince benzer parçalarla devam eder
+- **Arka plan çalma** — ekran kilitliyken devam eder
+- **Kilit ekranı / bildirim kontrolleri** — şarkı bilgisi, ileri-geri, beğen
+- **Çalma listeleri** — tek kaydırmalı liste, tümünü çal
+- **Sanatçı profilleri** — sanatçının tüm parçaları tek listede
+- **Oda** — kendi avatarını yükle, beğendiğin parçaları tek yerde topla
 
-### 🎛 Ses
-- ✅ **5 kalite kademesi** — Auto / Ultra (lossless) / Yüksek 320kbps / Orta / Düşük
-- ✅ **7 bant ekolayzer** — Flat, Pop, Rock, Jazz, Klasik, Bas, Vokal
-- ✅ Ses **asla transkode edilmez**; platforma göre en iyi akış otomatik seçilir
+### 🔗 Bağlantılar
+Desteklenen dört adres: `youtu.be`, `m.youtube.com`, `youtube.com`,
+`www.youtube.com`. Ayarlar'daki **Desteklenen bağlantılar** anahtarıyla
+uygulama içi açma kapatılabilir.
 
-### 📚 Kitaplık
-- ✅ Canlı arama + son aramalar
-- ✅ Çevrimdışı indirmeler (ilerleme + boyut takibi)
-- ✅ Favoriler · çalma listeleri (oluştur/adlandır/sil) · dinleme geçmişi
-- ✅ Şarkı radyosu · şarkı sözleri (eş zamanlı vurgulu) · sanatçı sayfaları
-- ✅ Sıralama (queue) görünümü — sırala, kaldır, yeniden düzenle
+### 🛠️ Onarım botu
+Arka planda düşük kaynakla çalışır; akış hatalarını sessizce onarır.
+Sıralama: doğrudan YouTube → Cloudflare yedek akışı → cihaz raporu
+(`CloudTune@hotmail.com`). Kullanıcıya hata mesajı gösterilmez.
 
-### 🌍 Bağlantı
-- ✅ **Oda sistemi** — kodla katıl, senkronize dinle
-- ✅ **Manuel çevrimdışı mod** — yalnızca indirilenler
-- ✅ **OTA güncelleme** — açılışta otomatik kontrol, tek dokunuşla kurulum
-- ✅ **Uyku zamanlayıcısı** — 5dk – 1sa
+### ⬇️ İndirme
+Şarkılar doğrudan cihaz depolamasına kaydedilir
+(`Download/CloudTune`). Masaüstünde belgeler klasörüne yazılır.
 
-### 🎨 Arayüz
-- ✅ Karanlık / Açık tema · 5 vurgu rengi (Yeşil, Mavi, Mor, Kırmızı, Turuncu)
-- ✅ Trend ana sayfa (küratörlü yatay akış) · mini oynatıcı · dinamik arka plan
-
-## ⚙️ Varsayılan Ayarlar
-- **Müzik Kalitesi:** Uygulama açıldığında otomatik olarak **Ultra (lossless)** kalitede çalınır. Daha düşük kalite tercih ederseniz ayarlarından değiştirebilirsiniz.
-- **Çevrimdışı Başlangıç:** Uygulama ilk açıldığında veya internet kesildiğinde, önceki oturumda indirilen şarkıdan devam eder. Yeni şarkı araması yapmadan mevcut indirilen listesini kullanır.
+### 🎨 Kişiselleştirme
+18 vurgu rengi, dinleme geçmişine göre kişisel ana sayfa, OTA güncelleme.
 
 ---
 
 ## ⬇️ İndirme
 
-### Android
-
-| Dosya | Boyut | Link |
-|---|---|---|
-| CloudTune-arm64.apk (arm64 — önerilir) | 22 MB | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk) |
-| CloudTune-universal.apk (tüm cihazlar) | 60 MB | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk) |
-
-> Kurulum: APK'yı indir → aç → izin ver → kur. Açılırken "Bilinmeyen kaynak" izni istenebilir.
-> 📱 <img src="https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apk-qr.png" width="64" align="center"> QR ile doğrudan telefonda indirme için de bu görsele bakabilirsin.
-
-### iPhone / iPad
-
-> **Durum:** iOS derlemesi GitHub Actions (macOS runner) üzerinde otomatik üretilir ve
-> `CloudTune.ipa` olarak yayına eklenir. İmzasızdır; kurulum için SideStore/AltStore kendi imzalar.
-
-| Dosya | Link |
+| Platform | Dosya |
 |---|---|
-| CloudTune.ipa | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa) |
+| Android (arm64) | `CloudTune-arm64.apk` |
+| Android (armv7) | `CloudTune-armv7.apk` |
+| Android (x86_64) | `CloudTune-x86_64.apk` |
+| Android (evrensel) | `CloudTune-universal.apk` |
+| Linux (deb) | `CloudTune-linux.deb` |
+| Linux (tar.gz) | `CloudTune-linux.tar.gz` |
+| Windows | `CloudTune-windows.zip` |
+| iOS (AltStore) | `apps.json` kaynağı |
 
-Apple `.ipa` dosyalarının doğrudan kurulmasına izin vermez; 3 yol:
-
-- **A (önerilen, PC gerekmez) — SideStore:**
-  1. **iOS 27+:** tarayıcıdan [SideInstaller](https://frizzlem.github.io/SideInstaller) → uygulamayı kur → **Install SideStore** · **iOS 26 ve altı:** [AppleJr](https://applejr.net) ile **ESign** kur, SideStore IPA'sını cihazdan imzala
-  2. SideStore → **Settings → Sources** → ekle:
-     `altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json`
-  3. Kaynaktan **CloudTune** → **Install** → Apple ID onayı ✅
-  4. 7 günlük imza yenilemesi WiFi ile otomatik yapılır
-- **C: AltStore** → aynı kaynak linkini telefonda aç → listeden CloudTune → **Install** (ilk kurulumda tek seferlik bilgisayar).
-- **D: Sideloadly (Windows/Mac + USB)** → [sideloadly.io](https://sideloadly.io) → IPA'yı pencereye sürükle → Apple ID → Start.
-
-> iOS 16+ ilk kurulumda: Ayarlar → Gizlilik ve Güvenlik → **Geliştirici Modu** aç.
-> iOS 14–16.6.1/17.0 TrollStore kullanıcıları: IPA'yı TrollStore ile aç.
-
-### Linux Mint / Ubuntu / Debian
-
-| Dosya | Link |
-|---|---|
-| `.deb` | [**CloudTune-linux.deb indir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb) |
-| Taşınabilir tar.gz | [**CloudTune-linux.tar.gz indir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz) |
-
-```bash
-sudo apt install ./CloudTune-linux.deb   # menüde "CloudTune" görünür
-# veya
-tar -xzf CloudTune-linux.tar.gz && ./cloudtune/cloudtune
-```
-
-### Windows 11
-
-> **Durum:** Windows derlemesi GitHub Actions (windows runner) üzerinde otomatik üretilir
-> ve `CloudTune-windows.zip` olarak yayına eklenir.
-
-| Dosya | Link |
-|---|---|
-| `CloudTune-windows.zip` (x64) | [**İndir**](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-windows.zip) |
-
-Kurulum, 3 adım:
-
-1. ZIP'i yukarıdaki **İndir** butonuyla al (henüz listede yoksa, yayın sürecinde üretilir — birkaç dakika sonra tekrar kontrol et).
-2. ZIP'i çıkart → `cloudtune.exe` dosyasını çalıştır.
-3. İlk açılışta Windows "Korumalı" (SmartScreen) uyarısı verebilir → **Yine de Çalıştır**. Uygulama kurulum gerektirmez; klasörü nereye istersen oraya taşı.
-
-Kurulum istemiyorsan kaynaktan derle: **Flutter SDK + Visual Studio 2022 (C++ masaüstü geliştirme iş yükü)** kur → `flutter build windows --release` → `build\windows\x64\runner\Release\cloudtune.exe`.
+Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
 ---
 
-## 📲 Çevrimiçi Güncelleme (OTA)
+## 🔄 Güncelleme
 
-Bu sayfanın `update.json` dosyası Pages üzerinden sunulur:
+Uygulama açılışta `update.json` dosyasını okur; yeni sürüm varsa ana sayfada
+bildirim çıkar ve APK'yı indirip kurulumu başlatır.
 
-```
-https://arise1881.github.io/cloudtune-dist/update.json
-```
+## 🔐 Gizlilik
 
-1. Uygulama açıldığında manifest kontrol edilir (varsayılan 10dk önbellek).
-2. Yeni sürüm varsa banner görünür → **İndir + Kur**.
-3. Güncelleme ayrı oturumda tamamlanır; müzik ve veriler etkilenmez.
-
-> Sürüm eskiliği: otomatik güncelleme, uygulama açılışında en son sürüm ile karşılaştırılır.
-
----
-
-## 🏗 Yansıtılan Yapı
-
-```
-cloudtune-dist/         ← bu yayın reposu (CloudTune) (manifest + indirmeler)
-├── update.json         OTA manifest (sürüm/code/URL'ler)
-├── apps.json           AltStore kaynağı (iOS)
-├── index.html          GitHub Pages tanıtım sayfası
-├── icon.png / header.png / apk-qr.png / ipa-qr.png
-└── README.md           ← kurulum rehberi
-```
-
-## ⚖️ Yasal
-
-Açık kaynak, tamamen kişisel kullanım. Uygulama hiçbir içeriği barındırmaz;
-indirilen içeriklerin kullanımından geliştirici sorumlu değildir, telif haklarına uyun.
+Dinleme geçmişi, beğeniler ve avatar yalnızca cihazda saklanır. Sunucuya
+gönderilen tek veri, çözülemeyen bir akış hatasında gönderilen anonim cihaz
+raporudur (platform, sürüm, video kimliği).
 
 ## 📄 Lisans
 

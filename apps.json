@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.2",
-      "versionDate": "2026-11-15T00:00:00Z",
-      "versionDescription": "CloudTune 3.0.2+203: OTA guncelleme servisi ve banner.",
+      "version": "3.0.3",
+      "versionDate": "2026-11-15T00:17:11Z",
+      "versionDescription": "CloudTune 3.0.3+204",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
