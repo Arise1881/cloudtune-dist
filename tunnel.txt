@@ -1,14 +1,21 @@
 CloudTune altyapi notlari (uygulama arayuzunde gizli)
 
-tunnel:     23d9da7b-178f-424a-8f7d-671c7708445b
-tunnel adi: cloudtune
+tunnel:     23d9da7b-178f-424a-8f7d-671c7708445b  (cloudtune, inactive)
 worker:     https://cloudtune-repair.cloudtune-5b3.workers.dev  (onarim/cihaz raporu + e-posta)
 stream:     https://cloudtune-stream.cloudtune-5b3.workers.dev  (ses akisi yedegi)
-zone:       cloudtune.app (CF)
+zone:       yok — hesapta kayitli alan adi bulunmuyor
 hedef:      CloudTune@hotmail.com
 
 Uygulama once dogrudan YouTube'a baglanir. Yalnizca akis alinamazsa
-stream worker -> repair tunel -> e-posta sirasina duser. Kullaniciya
+stream worker -> onarim kaydi -> e-posta sirasina duser. Kullaniciya
 baglanti bilgisi veya hata mesaji gosterilmez.
+
+E-posta: SendGrid -> MailChannels -> FormSubmit.
+FormSubmit ilk kayitta CloudTune@hotmail.com adresine "Activate Form"
+e-postasi gonderir; baglanti bir kez tiklaninca zincir kalici calisir.
+
+Tunel yalnizca hesaba alan adi (zone) eklendiginde kullanilabilir:
+  ZONE_NAME=<alanadi> bash cloudflare/setup.sh
+  bash cloudflare/tunnel.sh start
 
 Kurulum: bash cloudflare/setup.sh (kaynak repoda)
