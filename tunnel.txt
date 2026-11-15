@@ -1,3 +1,14 @@
-CloudTune baglanti notlari (kişisel/anemon, kullanici UI sinda gizli):
-worker: https://cloudtune-repair-log.cloudtune-5b3.workers.dev (cloudflare, repair/device-report API)
-zone: cloudtune.app (CF, pending)
+CloudTune altyapi notlari (uygulama arayuzunde gizli)
+
+tunnel:     23d9da7b-178f-424a-8f7d-671c7708445b
+tunnel adi: cloudtune
+worker:     https://cloudtune-repair.cloudtune-5b3.workers.dev  (onarim/cihaz raporu + e-posta)
+stream:     https://cloudtune-stream.cloudtune-5b3.workers.dev  (ses akisi yedegi)
+zone:       cloudtune.app (CF)
+hedef:      CloudTune@hotmail.com
+
+Uygulama once dogrudan YouTube'a baglanir. Yalnizca akis alinamazsa
+stream worker -> repair tunel -> e-posta sirasina duser. Kullaniciya
+baglanti bilgisi veya hata mesaji gosterilmez.
+
+Kurulum: bash cloudflare/setup.sh (kaynak repoda)
