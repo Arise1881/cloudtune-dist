@@ -10,8 +10,8 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.0",
-      "versionDate": "2026-11-15T00:00:00Z",
+      "version": "3.0.2",
+      "versionDate": "2026-11-15T00:01:29Z",
       "versionDescription": "CloudTune 3.0.0+203: Gizli onarim botu eklendi.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
