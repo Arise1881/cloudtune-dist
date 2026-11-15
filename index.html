@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CloudTune - Müzik Player</title>
+<title>CloudTune — Açık kaynak YouTube müzik çalar</title>
+<meta name="description" content="CloudTune: YouTube üzerinden arayan, çalan ve cihaza indiren açık kaynak müzik uygulaması. Android, Linux, Windows ve iOS.">
+<link rel="icon" href="icon.png">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }
   body { background:#121212; color:#fff; min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:40px 20px; }
-  .logo { width:112px; height:112px; border-radius:26px; overflow:hidden; box-shadow:0 12px 34px rgba(190,24,96,.45); }
+  .logo { width:112px; height:112px; border-radius:26px; overflow:hidden; box-shadow:0 12px 34px rgba(30,215,96,.35); }
   .logo img { width:100%; height:100%; object-fit:cover; display:block; }
   h1 { font-size:42px; margin:18px 0 6px; }
-  h1 span { color:#1DB954; }
-  .tag { color:#b3b3b3; margin-bottom:30px; font-size:16px; }
+  h1 span { color:#1ED760; }
+  .tag { color:#b3b3b3; margin-bottom:30px; font-size:16px; text-align:center; }
   .btns { display:flex; flex-direction:column; gap:14px; width:100%; max-width:420px; }
   .btn { display:block; text-align:center; padding:17px 24px; border-radius:50px; text-decoration:none; font-weight:700; font-size:17px; transition:.15s; }
   .btn-green { background:#1DB954; color:#000; }
@@ -19,10 +21,10 @@
   .btn-dark { background:#2a2a2a; color:#fff; border:1px solid #444; }
   .btn-dark:hover { background:#333; }
   .card { background:#181818; border-radius:14px; padding:22px; max-width:520px; width:100%; margin-top:34px; }
-  .card h2 { font-size:18px; margin-bottom:14px; color:#1DB954; }
+  .card h2 { font-size:18px; margin-bottom:14px; color:#1ED760; }
   .card ol { margin-left:20px; line-height:1.9; color:#d9d9d9; font-size:15px; }
   .sec { max-width:860px; width:100%; text-align:left; font-size:22px; color:#fff; margin:44px 0 16px; }
-  .sec span { color:#1DB954; }
+  .sec span { color:#1ED760; }
   .feats { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px; max-width:860px; width:100%; }
   .feat { background:#181818; border-radius:14px; padding:16px 18px; display:flex; flex-direction:column; gap:4px; border:1px solid #222; }
   .feat:hover { background:#1f1f1f; }
@@ -36,37 +38,33 @@
 <body>
   <div class="logo"><img src="icon.png" alt="CloudTune"></div>
   <h1>CloudTune<span>.</span></h1>
-  <div class="tag">Premium arayüz · Açık kaynak müzik player · Spotify tarzı · Türkçe</div>
+  <div class="tag">Doğrudan YouTube · Reklamsız · Açık kaynak<br>Android · Linux · Windows · iOS</div>
 
   <div class="btns">
     <a class="btn btn-green" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk">⬇️ &nbsp;Android için İndir (.apk)</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-universal.apk">📦 &nbsp;Android evrensel APK</a>
     <a class="btn btn-green" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa">⬇️ &nbsp;iPhone için İndir (.ipa)</a>
-    <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb">⬇️ &nbsp;Linux için İndir (.deb)</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.deb">🐧 &nbsp;Linux (.deb)</a>
     <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz">🐧 &nbsp;Linux taşınabilir (.tar.gz)</a>
     <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-windows.zip">🪟 &nbsp;Windows 11 (.zip)</a>
-    <a class="btn btn-dark" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json">📲 AltStore'a Ekle</a>
-    <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist#readme">📖 Kurulum Rehberi</a>
+    <a class="btn btn-dark" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json">📲 AltStore kaynağına ekle</a>
+    <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune">📖 Kaynak kodu</a>
   </div>
 
   <h2 class="sec">Özellikler<span>.</span></h2>
   <div class="feats">
-    <div class="feat"><b><em>⬇️</em>Çevrimdışı Dinleme</b><span>Şarkı ve çalma listelerini cihazına indir, internetsiz dinle</span></div>
-    <div class="feat"><b><em>🔍</em>Sınırsız Müzik</b><span>Milyonlarca şarkıyı ara, anında ve ücretsiz çal</span></div>
-    <div class="feat"><b><em>📝</em>Şarkı Sözleri</b><span>Dinlediğin şarkının sözlerini eş zamanlı görüntüle</span></div>
-    <div class="feat"><b><em>🎚️</em>Ses Kalitesi Seçimi</b><span>Otomatik, yüksek, orta veya düşük akış kalitesi seç</span></div>
-    <div class="feat"><b><em>📻</em>Şarkı Radiosu</b><span>Sevdiğin şarkıya benzer sonsuz çalma listesi oluştur</span></div>
-    <div class="feat"><b><em>🎤</em>Sanatçı Sayfaları</b><span>Sanatçıların tüm şarkılarına tek yerden göz at</span></div>
-    <div class="feat"><b><em>🔢</em>Sıralama (Queue) Görünümü</b><span>Şimdi çalıyor ekranında sıradaki şarkıları gör ve atla</span></div>
-    <div class="feat"><b><em>⏰</em>Uyku Zamanlayıcısı</b><span>10dk–2sa arası sürede müziği durdur, uykuya dal</span></div>
-    <div class="feat"><b><em>📊</em>Dinleme Geçmişi</b><span>Son çalınan şarkılarına hızlı eriş</span></div>
-    <div class="feat"><b><em>➕</em>Çalma Listesine Hızlı Ekleme</b><span>Her şarkıdan tek tıkla listedene ekle</span></div>
-    <div class="feat"><b><em>🎧</em>Spotify İçe Aktarma</b><span>Spotify çalma listenizi CloudTune.a tek tıkla taşıyın</span></div>
-    <div class="feat"><b><em>🎚️</em>Ekolayzır</b><span>Bass, vokal ve hazır ayarlarla sesi kendine göre şekillendir</span></div>
-    <div class="feat"><b><em>🎨</em>Tema Desteği</b><span>Dinamik renkler ve AMOLED için saf siyah tema</span></div>
-    <div class="feat"><b><em>🎧</em>En İyi Ses Kalitesi</b><span>Platforma göre en iyi akış seçilir (Opus ~160 kbps), ses asla bozulmaz/transkode edilmez</span></div>
-    <div class="feat"><b><em>✨</em>Premium Arayüz</b><span>Çalan şarkının kapağına göre değişen aurora arka plan, yeni ikon tasarımı</span></div>
-    <div class="feat"><b><em>🔗</em>Çalma Listesi Paylaşımı</b><span>Listelerini tek linkle arkadaşlarınla paylaş</span></div>
-    <div class="feat"><b><em>🌍</em>Türkçe Destek</b><span>Türkçe dahil birden fazla dilde kullan</span></div>
+    <div class="feat"><b><em>▶️</em>Doğrudan YouTube</b><span>Aracı sunucu yok; arama ve akış doğrudan YouTube'dan gelir</span></div>
+    <div class="feat"><b><em>♾️</em>Sonsuz radyo</b><span>Kuyruk bitince benzer parçalarla kesintisiz devam eder</span></div>
+    <div class="feat"><b><em>🎧</em>Kilit ekranı kontrolleri</b><span>Şarkı bilgisi, ileri/geri ve beğeni bildirimden yönetilir</span></div>
+    <div class="feat"><b><em>📋</em>Çalma listeleri</b><span>Bağlantıyla gelen listeler tek kaydırmalı akış olarak açılır</span></div>
+    <div class="feat"><b><em>🎤</em>Sanatçı profilleri</b><span>Sanatçının tüm parçaları tek listede, tek dokunuşla çalar</span></div>
+    <div class="feat"><b><em>🏠</em>Kişisel ana sayfa</b><span>Dinleme geçmişine göre şekillenen öneri bölümleri</span></div>
+    <div class="feat"><b><em>👤</em>Oda</b><span>Kendi görselini avatar yap, beğendiğin parçaları topla</span></div>
+    <div class="feat"><b><em>⬇️</em>Cihaza indirme</b><span>İndirilenler <code>Download/CloudTune</code> klasörüne kaydedilir</span></div>
+    <div class="feat"><b><em>🔗</em>Bağlantı desteği</b><span>youtu.be, m.youtube.com, youtube.com, www.youtube.com; açma/kapama anahtarı</span></div>
+    <div class="feat"><b><em>🛠️</em>Gizli onarım botu</b><span>Akış hatalarını sessizce onarır; düşük pil/CPU kullanımı</span></div>
+    <div class="feat"><b><em>🎨</em>18 vurgu rengi</b><span>Tema rengini uygulamanın tamamında değiştir</span></div>
+    <div class="feat"><b><em>🔄</em>Uygulama içi güncelleme</b><span>Yeni sürümü uygulamadan indir ve kur</span></div>
   </div>
 
   <div class="card" style="border:2px solid #A78BFA">
@@ -77,7 +75,6 @@
         <source src="https://github.com/Arise1881/cloudtune-dist/releases/download/kurulum-videolari-v1/CloudTune-iOS-Kurulum.mp4" type="video/mp4">
         Tarayıcınız video oynatmayı desteklemiyorsa aşağıdan indirin.
       </video>
-      <p style="color:#888;font-size:12px;margin-top:8px">▶️ Oynatmayı başlatmak için videoya dokun (tarayıcıda oynamazsa indir:)</p>
       <div style="margin-top:6px">
         <a class="btn btn-green" href="https://github.com/Arise1881/cloudtune-dist/releases/download/kurulum-videolari-v1/CloudTune-iOS-Kurulum.mp4">⬇️ &nbsp;Videoyu İndir (.mp4)</a>
         <a class="btn btn-dark" href="https://github.com/Arise1881/cloudtune-dist/releases/tag/kurulum-videolari-v1">GitHub'da Aç</a>
@@ -87,11 +84,11 @@
 
   <div class="card" style="border:1px solid #1DB954">
     <h2>📲 PC'siz Kurulum — SideStore (önerilen)</h2>
-    <p style="color:#a0a0a0;font-size:13px;line-height:1.6;margin-bottom:10px">Apple, QR ile inen uygulamanın direkt kurulmasına izin vermez; cihaza önce ücretsiz <b>SideStore</b> kurulur, sonrası tamamen PC'siz. (Eski web.jitstreamer.com yöntemi kaldırıldı — site hizmet dışı.)</p>
+    <p style="color:#a0a0a0;font-size:13px;line-height:1.6;margin-bottom:10px">Apple, QR ile inen uygulamanın direkt kurulmasına izin vermez; cihaza önce ücretsiz <b>SideStore</b> kurulur, sonrası tamamen PC'siz.</p>
     <ol>
-      <li><b>iOS 27+ cihazlar:</b> tarayıcıdan <a style="color:#1DB954" href="https://frizzlem.github.io/SideInstaller/">frizzlem.github.io/SideInstaller</a> → <b>SideInstaller</b> uygulamasını kur → Apple ID'nle gir → <b>Install SideStore</b> → bitti ✅</li>
-      <li><b>iOS 26 ve altı (gri alan, sertifika gerektirir):</b> <a style="color:#1DB954" href="https://applejr.net">applejr.net</a> üzerinden <b>ESign</b> kur, sonra SideStore IPA'sını cihazdan imzala</li>
-      <li>SideStore → <b>Settings → Sources</b> → <a style="color:#1DB954" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json">bu kaynağı ekle</a> (veya alttaki SideStore QR'ini okut)</li>
+      <li><b>iOS 27+ cihazlar:</b> tarayıcıdan <a style="color:#1ED760" href="https://frizzlem.github.io/SideInstaller/">frizzlem.github.io/SideInstaller</a> → <b>SideInstaller</b> uygulamasını kur → Apple ID'nle gir → <b>Install SideStore</b> → bitti ✅</li>
+      <li><b>iOS 26 ve altı (gri alan, sertifika gerektirir):</b> <a style="color:#1ED760" href="https://applejr.net">applejr.net</a> üzerinden <b>ESign</b> kur, sonra SideStore IPA'sını cihazdan imzala</li>
+      <li>SideStore → <b>Settings → Sources</b> → <a style="color:#1ED760" href="altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json">bu kaynağı ekle</a> (veya alttaki SideStore QR'ini okut)</li>
       <li>Kaynak listesinden <b>CloudTune</b> → <b>Install</b> → Apple ID onayı ✅ + 7 günlük yenileme WiFi üzerinden otomatik</li>
     </ol>
     <div style="text-align:center;margin-top:14px">
@@ -101,15 +98,15 @@
   </div>
 
   <div class="card">
-    <h2>iPhone Kurulumu — Bilgisayarla (ister) Bilgisayarsız (gri alan)</h2>
+    <h2>iPhone Kurulumu — Bilgisayarla (ister) Bilgisayarsız</h2>
     <ol>
-      <li>Yukarıdan <b>.ipa</b> dosyasını indir (veya aşağıdaki iPhone QR'ini telefon kamerasıyla okut → dosya telefona insin)</li>
-      <li><a style="color:#1DB954" href="https://sideloadly.io">sideloadly.io</a> programını bilgisayarına kur</li>
+      <li>Yukarıdan <b>.ipa</b> dosyasını indir (veya aşağıdaki iPhone QR'ini telefon kamerasıyla okut)</li>
+      <li><a style="color:#1ED760" href="https://sideloadly.io">sideloadly.io</a> programını bilgisayarına kur</li>
       <li>iPhone'u USB ile bağla</li>
       <li>ipa dosyasını pencereye sürükle + Apple ID gir</li>
       <li>Start → bitti ✅</li>
     </ol>
-    <p style="margin-top:12px;color:#a0a0a0;font-size:13px;line-height:1.6">ℹ️ Apple güvenliği nedeniyle iOS'ta tarayıcıdan indirilen uygulama kendiliğinden kurulmaz; tek seferlik imzalama adımı gerekir. <b>AltStore/SideStore</b> kuruluysa "📲 AltStore'a Ekle" ile bilgisayarsız kurabilirsin. Alternatif olarak ESign/Scarlet gibi cihaz-içi imzalayıcılar da var ama kritik/güvenilir değil.</p>
+    <p style="margin-top:12px;color:#a0a0a0;font-size:13px;line-height:1.6">ℹ️ Apple güvenliği nedeniyle iOS'ta tarayıcıdan indirilen uygulama kendiliğinden kurulmaz; tek seferlik imzalama adımı gerekir.</p>
   </div>
 
   <div class="card" style="text-align:center">
@@ -123,15 +120,13 @@
       <div>
         <img src="ipa-qr.png" alt="CloudTune iOS IPA QR" style="width:210px;height:210px;border-radius:12px;background:#fff;padding:8px">
         <p style="color:#d8d8d8;font-size:14px;font-weight:600;margin-top:10px">📱 iPhone (.ipa)</p>
-        <p style="color:#888;font-size:12px;margin-top:4px">Kamera ile okut → dosya telefona iner<br>(kurulum için imza adımı gerekir, aşağıda)</p>
+        <p style="color:#888;font-size:12px;margin-top:4px">Kamera ile okut → dosya telefona iner</p>
       </div>
     </div>
   </div>
 
   <div class="note">
-    Ücretsiz Apple ID yeterlidir · imza 7 gün geçerlidir, AltStore otomatik yeniler.<br>
-    iOS 16+ cihazlarda ilk kurulumda <b>Geliştirici Modu</b> gerekebilir:<br>
-    Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu → Aç<br><br>
+    Ücretsiz Apple ID yeterlidir · imza 7 gün geçerlidir, AltStore otomatik yeniler.<br><br>
     🤖 Android'de: indirilen .apk dosyasına dokun → "Bilinmeyen kaynağa izin ver" → Kur<br><br>
     🐧 Linux (Ubuntu/Mint): .deb dosyasına çift tıkla → Kur
   </div>

@@ -1,22 +1,22 @@
 {
   "name": "CloudTune - Müzik Player",
-  "subtitle": "YouTube akışlı açık kaynak müzik uygulaması",
-  "description": "CloudTune, açık kaynak bir müzik çalar. En iyi ses kalitesi, premium arayüz, çevrimdışı indirme, çalma listeleri, ekolayzer, şarkı radyosu, şarkı sözleri, sanatçı sayfaları, ses kalitesi seçimi, uyku zamanlayıcısı ve daha fazlası. Varsayılan katalog Audius + Internet Archive (sunucusuz, sunucu gerekmez); YouTube ayrıca kişisel olarak açılabilir. AltStore üzerinden kurmak için ücretsiz Apple ID yeterlidir (7 günde bir AltStore ile yenileme gerekir).",
+  "subtitle": "YouTube akışlı açık kaynak müzik çalar",
+  "description": "CloudTune, açık kaynak ve reklamsız bir müzik çalar. Şarkılar doğrudan YouTube'dan aranır ve çalınır; aracı sunucu yoktur. Sonsuz radyo, kilit ekranı/bildirim kontrolleri, çalma listeleri, sanatçı profilleri, dinleme geçmişine göre kişisel ana sayfa, cihaza indirme ve uygulama içi güncelleme içerir. youtu.be, m.youtube.com, youtube.com ve www.youtube.com bağlantıları uygulama içinde açılır (ayarlardan kapatılabilir).",
   "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/header.png",
-  "tintColor": "1DB954",
+  "tintColor": "1ED760",
   "website": "https://github.com/Arise1881/cloudtune-dist",
   "apps": [
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.3",
-      "versionDate": "2026-11-15T00:17:11Z",
-      "versionDescription": "CloudTune 3.0.3+204",
+      "version": "3.0.4",
+      "versionDate": "2026-11-15T00:29:38Z",
+      "versionDescription": "CloudTune 3.0.4+205",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
-      "tintColor": "1DB954",
+      "tintColor": "1ED760",
       "appPermissions": {
         "entitlements": {}
       }
