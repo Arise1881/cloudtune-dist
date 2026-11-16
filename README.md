@@ -36,8 +36,10 @@ uygulama içi açma kapatılabilir.
 
 ### 🛠️ Onarım botu
 Arka planda düşük kaynakla çalışır; akış hatalarını sessizce onarır.
-Sıralama: doğrudan YouTube → Cloudflare yedek akışı → cihaz raporu
-(`CloudTune@hotmail.com`). Kullanıcıya hata mesajı gösterilmez.
+Sıralama: doğrudan YouTube (yerel InnerTube) → tekrar deneme → cihaz
+raporu (`CloudTune@hotmail.com`). Akış katmanında Cloudflare artık yok;
+oyunculuk yolları tamamen cihaz uzerinden calisir. Kullaniciya hata mesaji
+gosterilmez.
 
 ### ⬇️ İndirme
 Şarkılar doğrudan cihaz depolamasına kaydedilir
