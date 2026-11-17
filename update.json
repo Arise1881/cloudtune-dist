@@ -1,8 +1,8 @@
 {
-  "version": "3.0.36",
-  "versionCode": 237,
+  "version": "3.0.37",
+  "versionCode": 238,
   "appName": "CloudTune",
-  "notes": "CloudTune 3.0.36",
+  "notes": "CloudTune 3.0.37",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
