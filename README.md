@@ -10,8 +10,9 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel `3.0.35+236` sürümü
-Android 7.0+ ve Linux için yayında. Windows/iOS kaynak ve CI hazır; mevcut
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+
+ve Linux için yayında. Linux oynatma motoru `media_kit + libmpv`'dir; `deb`
+paketi `libmpv2`'yi otomatik kurar. Windows/iOS kaynak ve CI hazır; mevcut
 paketler eski, GitHub billing/spending limiti düzeltildikten sonra yenilenecek.
 Hesap, abonelik veya PC sunucusu gerekmez.
 
@@ -71,8 +72,8 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Android arm64 | `CloudTune-arm64.apk` | Çoğu modern telefon |
 | Android armv7 | `CloudTune-armv7.apk` | Eski 32-bit cihazlar |
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
-| Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` |
-| Linux (tar.gz) | `CloudTune-linux.tar.gz` | Dağıtımdan bağımsız |
+| Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — `libmpv2` otomatik gelir |
+| Linux (tar.gz) | `CloudTune-linux.tar.gz` | `libmpv2` kurulu olmalı: `sudo apt install libmpv2` |
 | Windows | `CloudTune-windows.zip` | ⚠️ Mevcut dosya `3.0.5+206`; güncel sürüm CI ödeme limiti nedeniyle yayınlanamadı |
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 

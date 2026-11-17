@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.35",
-      "versionDate": "2026-11-17T22:32:23Z",
-      "versionDescription": "CloudTune 3.0.35+236",
+      "version": "3.0.36",
+      "versionDate": "2026-11-17T23:04:57Z",
+      "versionDescription": "CloudTune 3.0.36+237",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
