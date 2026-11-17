@@ -10,8 +10,10 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Android 7.0+, Linux, Windows
-ve iOS'ta (AltStore/SideStore) çalışır. Hesap, abonelik veya PC sunucusu gerekmez.
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel `3.0.35+236` sürümü
+Android 7.0+ ve Linux için yayında. Windows/iOS kaynak ve CI hazır; mevcut
+paketler eski, GitHub billing/spending limiti düzeltildikten sonra yenilenecek.
+Hesap, abonelik veya PC sunucusu gerekmez.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
@@ -71,8 +73,8 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
 | Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` |
 | Linux (tar.gz) | `CloudTune-linux.tar.gz` | Dağıtımdan bağımsız |
-| Windows | `CloudTune-windows.zip` | Zip'i açıp `cloudtune.exe` |
-| iOS | `apps.json` kaynağı | AltStore/SideStore ile ekleyin |
+| Windows | `CloudTune-windows.zip` | ⚠️ Mevcut dosya `3.0.5+206`; güncel sürüm CI ödeme limiti nedeniyle yayınlanamadı |
+| iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
