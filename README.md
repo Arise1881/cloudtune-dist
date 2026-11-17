@@ -10,7 +10,7 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Android 5.0+, Linux, Windows
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Android 7.0+, Linux, Windows
 ve iOS'ta (AltStore/SideStore) çalışır. Hesap, abonelik veya PC sunucusu gerekmez.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
@@ -65,7 +65,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 | Platform | Dosya | Not |
 |---|---|---|
-| Android — tüm cihazlar | `CloudTune-universal.apk` | Miminari bilmiyorsanız bunu seçin (Android 5.0+) |
+| Android — tüm cihazlar | `CloudTune-universal.apk` | Miminari bilmiyorsanız bunu seçin (Android 7.0+) |
 | Android arm64 | `CloudTune-arm64.apk` | Çoğu modern telefon |
 | Android armv7 | `CloudTune-armv7.apk` | Eski 32-bit cihazlar |
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
