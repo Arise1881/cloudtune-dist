@@ -85,6 +85,20 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
 5. Arama kutusuna şarkı yazın veya YouTube bağlantısı yapıştırın. İçerik
    kendiliğinden değişmez; yenilemek için yukarıdan aşağıya kaydırın.
 
+### Cihaz uyumu
+
+| Android | API | Destek |
+|---|---|---|
+| 7.0 – 7.1 | 24 – 25 | ✅ (`minSdk 24`) |
+| 8 – 10 | 26 – 29 | ✅ |
+| 11 – 14 | 30 – 34 | ✅ |
+| 15+ | 35+ | ✅ (`targetSdk 36`) |
+
+`arm64-v8a`, `armeabi-v7a`, `x86_64` ayrı paketler; bilinmeyen mimaride
+`CloudTune-universal.apk` kullanılır. Uygulama güncelleyicisi cihazın ABI'sini
+algılar ve uygun paketi indirir. Telefon, tablet, katlanabilir ve geniş ekran
+cihazlar desteklenir (`supports-screens`, `resizeableActivity`).
+
 ---
 
 ## 🔄 Güncelleme
@@ -97,6 +111,28 @@ Manifest iki adresten erişilebilir:
 
 - Raw (her zaman güncel): `https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/update.json`
 - GitHub Pages (CDN önbellekli): `https://arise1881.github.io/cloudtune-dist/update.json`
+
+## 📁 Bu depodaki dosyalar
+
+| Dosya | Açıklama |
+|---|---|
+| `README.md` | Bu sayfa — indirme, kurulum, uyum, güncelleme, gizlilik |
+| `index.html` | GitHub Pages indirme portalı (sürüm kartları, QR kodlar) |
+| `update.json` | Uygulama içi güncelleyicinin okuduğu OTA manifest |
+| `apps.json` | AltStore / SideStore için iOS kaynak manifesti |
+| `icon.png` | Uygulama ikonu (Pages ve Linux masaüstü girişi) |
+| `header.png` | Pages başlık görseli |
+| `apk-qr.png` | Android indirme QR kodu |
+| `ipa-qr.png` | iOS kaynak QR kodu |
+| `sidestore-qr.png` | SideStore kurulum QR kodu |
+| `video-poster.png` | Pages video kapak görseli |
+| `tunnel.txt` | Cloudflare tünel / altyapı notu |
+
+Kurulabilir dosyalar depoda değil,
+[son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
+asset'lerinde tutulur: `CloudTune-arm64.apk`, `CloudTune-armv7.apk`,
+`CloudTune-x86_64.apk`, `CloudTune-universal.apk`, `CloudTune-linux.deb`,
+`CloudTune-linux.tar.gz`, `CloudTune-windows.zip`, `CloudTune.ipa`.
 
 ---
 
