@@ -1,8 +1,8 @@
 {
-  "version": "3.0.39",
-  "versionCode": 240,
+  "version": "3.0.40",
+  "versionCode": 241,
   "appName": "CloudTune",
-  "notes": "Yerel Whisper sesli arama; tekrar/karışık çalma ve ses kalitesi; sanatçı parçalarını indirme/kaydetme; sıralanabilir çalma listeleri; oda listesi, şifreli davet ve avatar onayı; TR/EN dil; tam onarım.",
+  "notes": "Yerel Whisper sesli arama; oda presence/ack ve kişi sayısı düzeltmeleri; Android R8 + kaynak küçültme + HTTPS-only; Linux deb/tar.gz strip, libmpv doğrulama ve masaüstü entegrasyonu; Windows LTCG + runtime DLL; iOS obfuscation. Windows/iOS binary CI ödeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

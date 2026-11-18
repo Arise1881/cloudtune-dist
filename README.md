@@ -79,7 +79,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 | Platform | Dosya | Not |
 |---|---|---|
-| Android — tüm cihazlar | `CloudTune-universal.apk` | Miminari bilmiyorsanız bunu seçin (Android 7.0+) |
+| Android — tüm cihazlar | `CloudTune-universal.apk` | Mimari bilmiyorsanız bunu seçin (Android 7.0+) |
 | Android arm64 | `CloudTune-arm64.apk` | Çoğu modern telefon |
 | Android armv7 | `CloudTune-armv7.apk` | Eski 32-bit cihazlar |
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
@@ -89,6 +89,20 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
+
+### 3.0.40+241 —platform optimizasyonları
+
+- **Android:** R8 + kaynak küçültme açık; ABI APK'ları 20–26 MB. HTTP trafiği
+  kapalı, tüm bağlantılar HTTPS/wss. CI, özel manifest/izinleri koruyan
+  commit'li `android/` dosyalarını kullanıyor.
+- **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
+  sürüm+build numaralı deb (`3.0.40-241`), doğru `StartupWMClass`,
+  `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
+- **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
+  obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**
+  kaldı; limit düzelince yenilenecek.
+- **Uygulama:** Oda presence/ack senkronu, doğru kişi sayısı, avatar/discovery
+  temizliği; yerel Whisper, indirme/kaydetme, sıralanabilir playlist ve TR/EN dil.
 
 ### İlk kurulum
 1. Dosyayı indirin; Android'de **Bilinmeyen kaynaklardan yükleme** iznini verin.

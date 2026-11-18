@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.39",
-      "versionDate": "2026-11-18T18:36:26Z",
-      "versionDescription": "CloudTune 3.0.39+240",
+      "version": "3.0.40",
+      "versionDate": "2026-11-18T19:07:25Z",
+      "versionDescription": "CloudTune 3.0.40+241 — R8/strip/LTCG/obfuscation, oda presence/ack ve kişi sayısı düzeltmeleri",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
