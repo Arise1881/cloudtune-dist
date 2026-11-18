@@ -116,6 +116,13 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
+### 3.0.46+247 — arama sonuçları sabit kalır
+
+- Aratılan şarkı kendiliğinden başka parçalara dönüşmüyor; sonuç listesi sabit.
+- Sanatçının ilgili yeni parçaları yalnızca yukarıdan aşağıya kaydırıp
+  yenileyince listeye ekleniyor. Arama ayarları değişmedi.
+- Doğrulama: `flutter analyze` 0 issue, `flutter test` 73/73, emülatör 18/18.
+
 ### 3.0.45+246 — hızlı parça açılışı
 
 - InnerTube istemcileri ve Invidious örnekleri eşzamanlı deneniyor; ilk çalışan
