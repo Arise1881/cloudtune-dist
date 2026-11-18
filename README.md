@@ -40,8 +40,11 @@ güncelleme de bu dosyayı okur.
 - **Yerel Whisper sesli arama** — Google/sistem tanıma kullanılmaz; kayıt cihazda
   metne çevrilir. İlk kullanımda ~32 MB model indirilir. Mikrofon **yalnızca**
   düğmeye basıldığında açılır ve izin o anda istenir
-- **Arama sonuçları** — “Çalma Listeleri ve Şarkılar” başlığı altında sanatçının
-  tüm parçaları ayrı listede; “Tümünü indir” ve “Kitaplığıma kaydet” butonları
+- **Arama sonuçları** — müsify benzeri ekran: açık mavi **Ara** başlığı, koyu gri
+  yuvarlatılmış arama çubuğu, **Artists** ve **Parçalar** kartları. Kapakta süre
+  rozeti, başta `...`, satır sonunda dikey 3 nokta menü (çal / radyo / beğen /
+  indir / sanatçı / playlist). Kayıtlı çalma listeleri ve sanatçı radyoları da
+  aynı ekrandan erişilebilir.
 - **Kendiliğinden değişmez** — ana sayfa ve sonuçlar yalnızca yukarıdan aşağıya
   kaydırınca yenilenir; sanatçı parçaları da ancak o zaman tazelenir
 
@@ -90,13 +93,22 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.41+242 —platform optimizasyonları
+### 3.0.42+243 — yeni arama ekranı
 
+- **Arama:** ortalanmış açık mavi **Ara**, koyu gri yuvarlatılmış çubuk, X ile
+  temizleme; **Artists** (yuvarlak avatar + `Sanatçı` + `>`) ve **Parçalar**
+  (kare kapak + süre rozeti + `...` + dikey menü) kartları.
+- **Erişim:** her parça çalınabilir; menüden radyo, beğeni, indirme, sanatçı ve
+  çalma listesine ekleme yapılabilir. Alt nav Home / **Search** / Library /
+  Settings; aktif Search ovali, başlık ve ikonlar kullanıcının vurgu rengini
+  izler. Library eski kitaplık ekranını açar: profil/avatar ayarları, beğeniler
+  ve dinleme geçmişi. Çalma listeleri arama kartlarından ve ana sayfa üstünden;
+  Odalar ana sayfa üstünde ve aktif oda banner'ından erişilebilir.
 - **Android:** R8 + kaynak küçültme açık; ABI APK'ları 20–26 MB. HTTP trafiği
   kapalı, tüm bağlantılar HTTPS/wss. CI, özel manifest/izinleri koruyan
   commit'li `android/` dosyalarını kullanıyor.
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
-  sürüm+build numaralı deb (`3.0.41-242`), doğru `StartupWMClass`,
+  sürüm+build numaralı deb (`3.0.42-243`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
 - **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
   obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**

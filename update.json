@@ -1,8 +1,8 @@
 {
-  "version": "3.0.41",
-  "versionCode": 242,
+  "version": "3.0.42",
+  "versionCode": 243,
   "appName": "CloudTune",
-  "notes": "Vurgu rengi kapanıp açılınca korunuyor; oda eşzamanlı çalma ve http davet linki düzeltildi; 28 dil seçilebilir; Whisper base Q5_1 + net kayıt; radyo hata geçişi ve 50 parça sınırı kaldırıldı; just_audio cleartext proxy hatası giderildi. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
+  "notes": "Yeni müsify benzeri arama ekranı: açık mavi Ara başlığı, koyu gri arama çubuğu, Artists/Parçalar kartları, süre rozeti ve 3 nokta menü; şarkı, playlist ve radyo erişimi korundu. Önceki düzeltmeler de sürüldü: kalıcı vurgu rengi, oda senkronu, 28 dil, net Whisper sesli arama, çalışan radyolar. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
