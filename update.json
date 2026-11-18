@@ -1,6 +1,6 @@
 {
-  "version": "3.0.38",
-  "versionCode": 239,
+  "version": "3.0.39",
+  "versionCode": 240,
   "appName": "CloudTune",
   "notes": "Yerel Whisper sesli arama; tekrar/karışık çalma ve ses kalitesi; sanatçı parçalarını indirme/kaydetme; sıralanabilir çalma listeleri; oda listesi, şifreli davet ve avatar onayı; TR/EN dil; tam onarım.",
   "platforms": {
