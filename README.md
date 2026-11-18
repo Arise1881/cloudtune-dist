@@ -90,13 +90,13 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.40+241 —platform optimizasyonları
+### 3.0.41+242 —platform optimizasyonları
 
 - **Android:** R8 + kaynak küçültme açık; ABI APK'ları 20–26 MB. HTTP trafiği
   kapalı, tüm bağlantılar HTTPS/wss. CI, özel manifest/izinleri koruyan
   commit'li `android/` dosyalarını kullanıyor.
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
-  sürüm+build numaralı deb (`3.0.40-241`), doğru `StartupWMClass`,
+  sürüm+build numaralı deb (`3.0.41-242`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
 - **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
   obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**

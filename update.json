@@ -1,8 +1,8 @@
 {
-  "version": "3.0.40",
-  "versionCode": 241,
+  "version": "3.0.41",
+  "versionCode": 242,
   "appName": "CloudTune",
-  "notes": "Yerel Whisper sesli arama; oda presence/ack ve kişi sayısı düzeltmeleri; Android R8 + kaynak küçültme + HTTPS-only; Linux deb/tar.gz strip, libmpv doğrulama ve masaüstü entegrasyonu; Windows LTCG + runtime DLL; iOS obfuscation. Windows/iOS binary CI ödeme limiti nedeniyle eski.",
+  "notes": "Vurgu rengi kapanıp açılınca korunuyor; oda eşzamanlı çalma ve http davet linki düzeltildi; 28 dil seçilebilir; Whisper base Q5_1 + net kayıt; radyo hata geçişi ve 50 parça sınırı kaldırıldı; just_audio cleartext proxy hatası giderildi. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

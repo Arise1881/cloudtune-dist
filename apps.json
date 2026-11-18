@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.40",
-      "versionDate": "2026-11-18T19:07:25Z",
-      "versionDescription": "CloudTune 3.0.40+241 — R8/strip/LTCG/obfuscation, oda presence/ack ve kişi sayısı düzeltmeleri",
+      "version": "3.0.41",
+      "versionDate": "2026-11-18T19:50:17Z",
+      "versionDescription": "CloudTune 3.0.41+242 — vurgu rengi kalıcılığı, oda eşzamanlı çalma + http davet, 28 dil, Whisper base Q5_1, radyo düzeltmeleri",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
