@@ -25,37 +25,48 @@ güncelleme de bu dosyayı okur.
 
 ### 🎧 Çalma
 - **Doğrudan YouTube** — aracı sunucu yok, arama ve akış cihazda çözülür
-- **Sonsuz radyo** — kuyruk bitince benzer parçalarla devam eder
+- **Sonsuz radyo** — kuyruk bitmeden benzer parçalarla genişletilir; kaynak düşse de alternatifler denenir
+- **Tekrar modu** — kapalı / tüm listeyi tekrarla / tek parçayı tekrarla; oynatıcıdaki döngü ikonundan değişir
+- **Karışık çal** — kuyruğu karıştırır, ikon anında durumu gösterir
+- **Ses kalitesi** — düşük / orta / yüksek / kayıpsız; değişimde parça aynı pozisyondan yeniden açılır
 - **Arka plan çalma** — ekran kilitliyken devam eder, bildirim/kilit ekranı kontrolleri
 - **Ekolayzer** — açılışta ve ayar değişiminde uygulanır, parça değişiminde kesilme yapmaz
 - **Ses düzeltmeleri** — ilk oynatmada sessizlik/çizirti oluşmaz
-- **Çalma listeleri** — tek kaydırmalı liste, “Tümünü çal”
-- **Sanatçı profilleri** — sanatçının tüm parçaları tek listede
+- **Çalma listeleri** — oluşturma, adlandırma, silme ve liste içi sıralama düzenleme; sıra kalıcıdır
+- **Sanatçı profilleri** — sanatçının parçaları ayrı çalma listesi olarak kaydedilir ve indirilir
 
 ### 🔎 Arama
-- **Metin arama** — şarkı, sanatçı ve YouTube bağlantıları
-- **Sesli arama** — mikrofona dokununca açılır, konuşma bitince veya basılı tutup
-  bırakınca arar; uygulama sürekli mikrofonu dinlemez
+- **Metin arama** — şarkı, sanatçı ve YouTube bağlantıları; sonuçlar önbellekte tutulur
+- **Yerel Whisper sesli arama** — Google/sistem tanıma kullanılmaz; kayıt cihazda
+  metne çevrilir. İlk kullanımda ~32 MB model indirilir. Mikrofon **yalnızca**
+  düğmeye basıldığında açılır ve izin o anda istenir
 - **Arama sonuçları** — “Çalma Listeleri ve Şarkılar” başlığı altında sanatçının
-  tüm parçaları, ayrı “Arama Sonuçları” bölümü
+  tüm parçaları ayrı listede; “Tümünü indir” ve “Kitaplığıma kaydet” butonları
 - **Kendiliğinden değişmez** — ana sayfa ve sonuçlar yalnızca yukarıdan aşağıya
-  kaydırınca yenilenir
+  kaydırınca yenilenir; sanatçı parçaları da ancak o zaman tazelenir
 
 ### 🎨 Kişiselleştirme
 - **18 vurgu rengi**, **Koyu / Açık / Sistem** teması, OLED siyah zemin
 - Açık temada tüm yüzeyler ve metinler tema duyarlı paletten gelir; siyah yazı
   koyu zemin üstünde kalmaz
+- **Dil** — Ayarlar'dan seçilen dil uygulamaya anında uygulanır (TR/EN tam,
+  diğer diller İngilizceye düşer); sesli aramanın dili de bu ayarı izler
 - Dinleme geçmişine göre kişisel ana sayfa
 
 ### ⬇️ İndirme ve oda
 - Şarkılar doğrudan cihaz depolamasına kaydedilir (`Download/CloudTune`);
-  internet olmadan çalınabilir. Masaüstünde Belgeler klasörü kullanılır.
-- **Oda** — oda koduyla paylaşım, avatar ve beğeniler (MQTT)
+  itag/MIME'ye göre doğru uzantı (`.webm` / `.m4a` / `.mp3`), sanatçı ve arama
+  grupları ayrı kartlarda; internet olmadan çalınabilir. Masaüstünde Belgeler
+  klasörü kullanılır.
+- **Odalar** — oda listesi (ad, kod, kişi sayısı, kilit), şifresiz odaya tek
+  dokunuşla katılım, davet linkinde şifre (`cloudtune://room/KOD?p=...`),
+  uzaktan katılımcı avatarları. Başka cihaz bilgileri kullanıcı onayına bağlıdır.
+- **Kararlı avatar** — sürümlü dosya adı ve cache key'i; her çizimde değişmez.
 
 ### 🛠️ Onarım botu
-Arka planda düşük kaynakla çalışır; akış hatalarını sessizce onarır. Sıralama:
-doğrudan YouTube (yerel InnerTube) → tekrar deneme → anonim cihaz raporu
-(`CloudTune@hotmail.com`). Kullanıcıya ham hata mesajı gösterilmez.
+Arka planda düşük kaynakla çalışır; akış, indirme ve bağlantı hatalarını sessizce
+onarır. Ayarlar → **Tam onarımı çalıştır** tüm aşamaları zorla koşar ve sonucu
+gösterir. Loglar yalnızca cihazda tutulur; e-posta/uzak servise veri gönderilmez.
 
 ### 🔗 Bağlantılar
 Desteklenen adresler: `youtu.be`, `m.youtube.com`, `music.youtube.com`,
@@ -141,9 +152,12 @@ asset'lerinde tutulur: `CloudTune-arm64.apk`, `CloudTune-armv7.apk`,
 
 ## 🔐 Gizlilik
 
-Dinleme geçmişi, beğeniler, çalma listeleri, avatar ve tercihler yalnızca
-cihazda saklanır. Sunucuya gönderilen tek veri, çözülemeyen bir akış hatasında
-gönderilen anonim cihaz raporudur (platform, sürüm, video kimliği). PC kapalıyken
+Dinleme geçmişi, beğeniler, çalma listeleri, avatar, indirilenler, Whisper
+transkriptleri ve dil tercihi yalnızca cihazda saklanır. Ses kaydı cihazda metne
+çevrilir, sunucuya gönderilmez; mikrofon yalnızca siz dokunduğunuzda açılır.
+Oda durumu genel bir MQTT relay üzerinden taşınır; oda kodunu/şifresini bilmeyen
+kişiler aynı kanalı dinleyebilir, bu yüzden hassas bilgi paylaşmayın. Onarım
+logları cihazda kalır; e-posta veya uzak servise veri gönderilmez. PC kapalıyken
 de uygulama çalışır; yerel servis bağımlılığı yoktur.
 
 ## 📄 Lisans

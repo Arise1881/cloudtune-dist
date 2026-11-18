@@ -1,8 +1,8 @@
 {
-  "version": "3.0.37",
-  "versionCode": 238,
+  "version": "3.0.38",
+  "versionCode": 239,
   "appName": "CloudTune",
-  "notes": "CloudTune 3.0.37",
+  "notes": "Yerel Whisper sesli arama; tekrar/karistik calma ve ses kalitesi; sanatci parcalarini indirme/kaydetme; siralanabilir calma listeleri; oda listesi, sifreli davet ve avatar onayi; TR/EN dil; tam onarim.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
