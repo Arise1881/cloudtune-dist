@@ -21,6 +21,29 @@ güncelleme de bu dosyayı okur.
 
 ---
 
+## 📸 Ekran görüntüleri
+
+Gerçek cihazdan alınmış güncel görünümler. Büyütmek için görsele tıklayın.
+
+<p align="center">
+  <a href="docs/screenshots/device-01.png"><img src="docs/screenshots/device-01.png" width="24%" alt="CloudTune cihaz görünümü 1"></a>
+  <a href="docs/screenshots/device-02.png"><img src="docs/screenshots/device-02.png" width="24%" alt="CloudTune cihaz görünümü 2"></a>
+  <a href="docs/screenshots/device-03.png"><img src="docs/screenshots/device-03.png" width="24%" alt="CloudTune cihaz görünümü 3"></a>
+  <a href="docs/screenshots/device-04.png"><img src="docs/screenshots/device-04.png" width="24%" alt="CloudTune cihaz görünümü 4"></a>
+</p>
+
+<details>
+<summary>Tam boyut bağlantılar</summary>
+
+1. [Cihaz görünümü 1](docs/screenshots/device-01.png)
+2. [Cihaz görünümü 2](docs/screenshots/device-02.png)
+3. [Cihaz görünümü 3](docs/screenshots/device-03.png)
+4. [Cihaz görünümü 4](docs/screenshots/device-04.png)
+
+</details>
+
+---
+
 ## ✨ Özellikler
 
 ### 🎧 Çalma
@@ -93,8 +116,11 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.44+245 — yeni arama ekranı
+### 3.0.44+245 — temiz kurulum varsayılanları ve ekran galerisi
 
+- **Açılış:** uygulama doğrudan **ana sayfa** ile başlar; aramaya üstteki
+  büyüteçten veya alt nav’dan geçilir. **Sonsuz radyo** ilk kurulumda açık gelir;
+  sonraki açılışlarda kullanıcı tercihi korunur, beğeni/geçmiş/playlist silinmez.
 - **Arama:** ortalanmış açık mavi **Ara**, koyu gri yuvarlatılmış çubuk, X ile
   temizleme; **Artists** (yuvarlak avatar + `Sanatçı` + `>`) ve **Parçalar**
   (kare kapak + süre rozeti + `...` + dikey menü) kartları.
@@ -118,7 +144,8 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
 
 ### İlk kurulum
 1. Dosyayı indirin; Android'de **Bilinmeyen kaynaklardan yükleme** iznini verin.
-2. APK'yı kurun ve uygulamayı açın.
+2. APK'yı kurun ve uygulamayı açın. Uygulama doğrudan **ana sayfa** ile açılır;
+   **sonsuz radyo** varsayılan olarak açıktır.
 3. Bildirim iznini verin (arka plan çalma için); mikrofon izni yalnızca sesli
    arama düğmesine bastığınızda istenir.
 4. Ayarlar → **Tema**'dan açık/koyu/sistem modunu ve vurgu rengini seçin.
