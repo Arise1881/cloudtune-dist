@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.42",
-      "versionDate": "2026-11-18T20:14:37Z",
-      "versionDescription": "CloudTune 3.0.42+243 — vurgu rengi kalıcılığı, oda eşzamanlı çalma + http davet, 28 dil, Whisper base Q5_1, radyo düzeltmeleri",
+      "version": "3.0.43",
+      "versionDate": "2026-11-18T20:27:08Z",
+      "versionDescription": "CloudTune 3.0.43+244 — iki cihazlı oda senkronu, arama ekranı, kalıcı vurgu rengi, http davet, 28 dil, Whisper base Q5_1, radyo düzeltmeleri",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
