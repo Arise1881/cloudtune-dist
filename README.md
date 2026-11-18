@@ -116,7 +116,16 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.44+245 — temiz kurulum varsayılanları ve ekran galerisi
+### 3.0.45+246 — hızlı parça açılışı
+
+- InnerTube istemcileri ve Invidious örnekleri eşzamanlı deneniyor; ilk çalışan
+  yanıt parçayı açıyor. Takılan bir aday diğerlerini 6'şar sn bekletmiyor.
+- Radyo önerisi geçişi bloklamıyor; parça arası boşluk 300 ms'ye indi. Sonraki
+  parça adresi daha erken önbelleğe alınıyor, `play()` hazır sinyalini uzun
+  beklemiyor.
+- Doğrulama: `flutter analyze` 0 issue, `flutter test` 71/71, emülatör 18/18.
+
+### 3.0.45+246 — temiz kurulum varsayılanları ve ekran galerisi
 
 - **Açılış:** uygulama doğrudan **ana sayfa** ile başlar; aramaya üstteki
   büyüteçten veya alt nav’dan geçilir. **Sonsuz radyo** ilk kurulumda açık gelir;
@@ -134,7 +143,7 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
   kapalı, tüm bağlantılar HTTPS/wss. CI, özel manifest/izinleri koruyan
   commit'li `android/` dosyalarını kullanıyor.
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
-  sürüm+build numaralı deb (`3.0.44-245`), doğru `StartupWMClass`,
+  sürüm+build numaralı deb (`3.0.45-246`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
 - **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
   obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**

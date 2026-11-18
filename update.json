@@ -1,8 +1,8 @@
 {
-  "version": "3.0.44",
-  "versionCode": 245,
+  "version": "3.0.45",
+  "versionCode": 246,
   "appName": "CloudTune",
-  "notes": "Temiz kurulum deneyimi: uygulama doğrudan ana sayfa ile açılır, sonsuz radyo varsayılan açıktır, arama üstteki büyütten erişilebilir. README cihaz ekran görüntüleriyle güncellendi. İki cihazlı oda senkronu, müsify benzeri arama ekranı, kalıcı vurgu rengi, 28 dil, net Whisper sesli arama ve çalışan radyolar korundu. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
+  "notes": "Parçalar daha hızlı açılıyor: InnerTube istemcileri ve Invidious örnekleri eşzamanlı deneniyor, takılan aday diğerlerini beklemiyor. Radyo önerisi geçişi bloklamıyor, parça arası boşluk 300 ms, sonraki adres erken ısınıyor, play() hazır sinyalini uzun beklemiyor. Ana sayfa açılışı, varsayılan sonsuz radyo, iki cihazlı oda senkronu ve ekran galerisi korundu. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.44",
-      "versionDate": "2026-11-18T20:41:25Z",
-      "versionDescription": "CloudTune 3.0.44+245 — ana sayfa açılışı, varsayılan sonsuz radyo, iki cihazlı oda senkronu, arama ekranı, kalıcı vurgu rengi, 28 dil",
+      "version": "3.0.45",
+      "versionDate": "2026-11-18T21:06:08Z",
+      "versionDescription": "CloudTune 3.0.45+246 — hızlı parça açılışı, ana sayfa açılışı, varsayılan sonsuz radyo, iki cihazlı oda senkronu, 28 dil",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
