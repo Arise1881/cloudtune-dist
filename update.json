@@ -1,8 +1,8 @@
 {
-  "version": "3.0.43",
-  "versionCode": 244,
+  "version": "3.0.44",
+  "versionCode": 245,
   "appName": "CloudTune",
-  "notes": "İki cihazlı oda senkronu düzeltildi: state sıra/zaman/host kimliğiyle doğrulanıyor, gecikmiş paket ve QoS1 tekrarı eski parçayı geri almıyor; katılımcıda shuffle oda kuyruğunu karıştırmıyor, kaynak hatasında parça yeniden açılıyor. Müsify benzeri arama ekranı, kalıcı vurgu rengi, 28 dil, net Whisper sesli arama ve çalışan radyolar korundu. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
+  "notes": "Temiz kurulum deneyimi: uygulama doğrudan ana sayfa ile açılır, sonsuz radyo varsayılan açıktır, arama üstteki büyütten erişilebilir. README cihaz ekran görüntüleriyle güncellendi. İki cihazlı oda senkronu, müsify benzeri arama ekranı, kalıcı vurgu rengi, 28 dil, net Whisper sesli arama ve çalışan radyolar korundu. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

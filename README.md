@@ -93,7 +93,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.43+244 — yeni arama ekranı
+### 3.0.44+245 — yeni arama ekranı
 
 - **Arama:** ortalanmış açık mavi **Ara**, koyu gri yuvarlatılmış çubuk, X ile
   temizleme; **Artists** (yuvarlak avatar + `Sanatçı` + `>`) ve **Parçalar**
@@ -108,7 +108,7 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
   kapalı, tüm bağlantılar HTTPS/wss. CI, özel manifest/izinleri koruyan
   commit'li `android/` dosyalarını kullanıyor.
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
-  sürüm+build numaralı deb (`3.0.43-244`), doğru `StartupWMClass`,
+  sürüm+build numaralı deb (`3.0.44-245`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
 - **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
   obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**
