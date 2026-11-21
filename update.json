@@ -1,8 +1,8 @@
 {
-  "version": "3.0.47",
-  "versionCode": 248,
+  "version": "3.0.48",
+  "versionCode": 249,
   "appName": "CloudTune",
-  "notes": "Davet linkiyle hizli oda katilimi, iki cihazli senkron, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu, kucuk kapak indirmeleri, hizli parca acilisi. Kitaplik/gecmis/calma listeleri ve tema korundu. Android/Linux guncel; Windows/iOS CI odeme limiti nedeniyle eski.",
+  "notes": "Tum Turkiye radyolari (calisan istasyonlar, logo, HTTPS/HTTP/HLS), dokunmada aninda calma (hazir oynatici havuzu), davet linkiyle hizli oda katilimi, iki cihazli senkron, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu. Kitaplik/gecmis/calma listeleri ve tema korundu. Android/Linux guncel; Windows/iOS CI odeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
