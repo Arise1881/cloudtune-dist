@@ -1,8 +1,8 @@
 {
-  "version": "3.0.46",
-  "versionCode": 247,
+  "version": "3.0.47",
+  "versionCode": 248,
   "appName": "CloudTune",
-  "notes": "Arama düzeltmesi: arattığın şarkı sabit kalır, kendiliğinden başka parçalara geçmez. Sanatçının ilgili yeni parçaları yalnızca yukarıdan aşağıya kaydırıp yenileyince listeye eklenir. Arama ayarları, vurgu rengi ve diğer dosyalar değiştirilmedi. Hızlı parça açılışı, ana sayfa açılışı, varsayılan sonsuz radyo, iki cihazlı oda senkronu korundu. Android/Linux güncel; Windows/iOS CI ödeme limiti nedeniyle eski.",
+  "notes": "Davet linkiyle hizli oda katilimi, iki cihazli senkron, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu, kucuk kapak indirmeleri, hizli parca acilisi. Kitaplik/gecmis/calma listeleri ve tema korundu. Android/Linux guncel; Windows/iOS CI odeme limiti nedeniyle eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
