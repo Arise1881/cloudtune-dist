@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.48",
-      "versionDate": "2026-11-21T21:12:09Z",
-      "versionDescription": "CloudTune 3.0.48+249 — Tum Turkiye radyolari ve logolari, aninda calma, davet linkiyle hizli katilim, iki cihazli oda senkronu, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu, 28 dil",
+      "version": "3.0.49",
+      "versionDate": "2026-11-21T21:29:52Z",
+      "versionDescription": "CloudTune 3.0.49+250 — Tum Turkiye radyolari ve logolari, aninda calma, davet linkiyle hizli katilim, iki cihazli oda senkronu, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu, 28 dil",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9641178,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
