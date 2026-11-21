@@ -1,0 +1,102 @@
+name: iOS Build
+
+# Kaynak repo özel olduğu için Actions dakikaları faturaya takılıyor.
+# Bu iş herkese açık cloudtune-dist deposunda çalışır; kaynak kodu
+# CT_SOURCE_TOKEN ile checkout eder, GH_TOKEN ile release asset yükler.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: release-dist-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-ios:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - name: Kaynak kodu checkout et
+        uses: actions/checkout@v4
+        with:
+          repository: Arise1881/cloudtune
+          ref: main
+          token: ${{ secrets.CT_SOURCE_TOKEN }}
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.1'
+          channel: stable
+          cache: true
+
+      - name: Bağımlılıklar
+        run: flutter pub get
+
+      # AltStore/Sideload hedefli imzasız IPA. Kod obfuscation IPA boyutunu
+      # küçültür; semboller ayrı klasöre yazılır.
+      - name: iOS release derle (imzasiz, obfuscate)
+        run: flutter build ios --release --no-codesign --obfuscate --split-debug-info=build/ios/symbols
+
+      - name: IPA paketle
+        run: |
+          cd build/ios/iphoneos
+          rm -rf Payload
+          mkdir -p Payload
+          cp -R Runner.app Payload/
+          rm -f CloudTune.ipa
+          zip -qr CloudTune.ipa Payload
+          ls -lh CloudTune.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CloudTune-ipa
+          path: build/ios/iphoneos/CloudTune.ipa
+          retention-days: 30
+          compression-level: 6
+
+      - name: GitHub release'e yukle
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          API="https://api.github.com/repos/Arise1881/cloudtune-dist/releases/tags/cloudtune-latest"
+          REL=$(curl -fsS -H "Authorization: token $GH_TOKEN" "$API") || exit 1
+          REL_ID=$(printf '%s' "$REL" | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])") || exit 1
+          OLD=$(printf '%s' "$REL" | python3 -c "import sys,json;[print(a['id']) for a in json.load(sys.stdin)['assets'] if a['name']=='CloudTune.ipa']") || exit 1
+          for id in $OLD; do
+            curl -fsS -o /dev/null -X DELETE \
+              -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/repos/Arise1881/cloudtune-dist/releases/assets/$id"
+          done
+          CODE=$(curl -sS -o /dev/null -w '%{http_code}' -X POST \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Content-Type: application/octet-stream" \
+            --data-binary @build/ios/iphoneos/CloudTune.ipa \
+            "https://uploads.github.com/repos/Arise1881/cloudtune-dist/releases/$REL_ID/assets?name=CloudTune.ipa")
+          echo "CloudTune.ipa -> $CODE"
+          [[ "$CODE" =~ ^2 ]] || exit 1
+
+      - name: apps.json IPA boyutunu guncelle
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          SIZE=$(stat -c %s build/ios/iphoneos/CloudTune.ipa)
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/Arise1881/cloudtune-dist.git" dist-checkout
+          cd dist-checkout
+          python3 - "$SIZE" <<'PY'
+          import json, sys
+          p = 'apps.json'
+          size = int(sys.argv[1])
+          with open(p, encoding='utf-8') as f:
+              data = json.load(f)
+          data['apps'][0]['size'] = size
+          with open(p, 'w', encoding='utf-8') as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write('\n')
+          print('apps.json size ->', size)
+          PY
+          git add apps.json
+          git -c user.name='CloudTune Release' -c user.email='release@cloudtune.app' \
+            commit -m "chore: iOS IPA boyutu guncellendi" || echo "apps.json zaten guncel"
+          git push origin main
