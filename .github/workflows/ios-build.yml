@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: release-dist-${{ github.ref }}
+  group: release-dist-ios-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -81,7 +81,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          SIZE=$(stat -c %s build/ios/iphoneos/CloudTune.ipa)
+          SIZE=$(wc -c < build/ios/iphoneos/CloudTune.ipa | tr -d ' ')
           git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/Arise1881/cloudtune-dist.git" dist-checkout
           cd dist-checkout
           python3 - "$SIZE" <<'PY'

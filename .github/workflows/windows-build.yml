@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: release-dist-${{ github.ref }}
+  group: release-dist-windows-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
