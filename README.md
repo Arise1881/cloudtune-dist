@@ -10,10 +10,10 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+
-ve Linux için yayında. Linux oynatma motoru `media_kit + libmpv`'dir; `deb`
-paketi `libmpv2`'yi otomatik kurar. Windows/iOS kaynak ve CI hazır; mevcut
-paketler eski, GitHub billing/spending limiti düzeltildikten sonra yenilenecek.
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+, Linux ve Windows 11 için yayında. Linux oynatma
+motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
+11 paketi `3.0.52+253`; uygulama içi güncelleme Windows'ta GitHub sürüm sayfasına
+yönlendirir. iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Hesap, abonelik veya PC sunucusu gerekmez.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
@@ -111,7 +111,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
 | Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — `libmpv2` otomatik gelir |
 | Linux (tar.gz) | `CloudTune-linux.tar.gz` | `libmpv2` kurulu olmalı: `sudo apt install libmpv2` |
-| Windows | `CloudTune-windows.zip` | ⚠️ Mevcut dosya `3.0.5+206`; güncel sürüm CI ödeme limiti nedeniyle yayınlanamadı |
+| Windows 11 | `CloudTune-windows.zip` | ✅ `3.0.52+253` — ZIP'i çıkarıp `cloudtune.exe`'yi çalıştırın |
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
@@ -152,9 +152,10 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
   sürüm+build numaralı deb (`3.0.44-245`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
-- **Windows / iOS:** MSVC LTCG + zorunlu `flutter_windows.dll`; imzasız iOS IPA
-  obfuscation ile küçültüldü. **İkili paketler CI ödeme limiti nedeniyle eski**
-  kaldı; limit düzelince yenilenecek.
+- **Windows:** MSVC LTCG + zorunlu `flutter_windows.dll`. `3.0.52+253` ZIP yayında;
+  güncelleme bildirimi ZIP indirmez, GitHub sürüm sayfasını açar.
+- **iOS:** İmzasız IPA obfuscation ile küçültüldü; mevcut paket CI ödeme limiti
+  nedeniyle eski sürümde kaldı.
 - **Uygulama:** Oda presence/ack senkronu, doğru kişi sayısı, avatar/discovery
   temizliği; yerel Whisper, indirme/kaydetme, sıralanabilir playlist ve TR/EN dil.
 
