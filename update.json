@@ -1,8 +1,8 @@
 {
-  "version": "3.0.55",
-  "versionCode": 256,
+  "version": "3.0.56",
+  "versionCode": 257,
   "appName": "CloudTune",
-  "notes": "3.0.55+256 — Uzun süreli kullanım için OTA dosya/indirme doğrulaması, sıralı kaynak açılışı, bayat hata koruması, onarıcı geri çekilme, radyo yeniden denemesi ve önbellek/istemci temizliği. Ana sayfa kapakları artık göreli Invidious adreslerini de YouTube CDN'ine çevirip yüklüyor. Ağ kesilince parça aynı sırada kalıyor. Android/Linux güncel; Windows/iOS eski.",
+  "notes": "3.0.56+257 — Şarkı/radyo çalarken takılma ve çalmama düzeltmesi: ekolayzer eşzamanlı değişim hatası giderildi, kaynak açılışı zaman aşımıyla korunuyor, takılan akışta sınırlı yeniden deneme sonrası aynı parçada hata gösteriliyor. Radyo istasyonları doğrudan akış URL'siyle çalınır. Android/Linux güncel; Windows/iOS eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
