@@ -1,8 +1,8 @@
 {
-  "version": "3.0.57",
-  "versionCode": 258,
+  "version": "3.0.58",
+  "versionCode": 259,
   "appName": "CloudTune",
-  "notes": "3.0.57+258 — Tam kod tarama/onarım: oda dispose sonrası notifyListeners crash guard, indirme/OTA akışında 45sn chunk-timeout ve sink kapatma düzeltmesi, radio-browser mirror güncellemesi, oda tepki sayacı guard. Android/Linux güncel; Windows/iOS eski.",
+  "notes": "3.0.58+259 — Uzun süre dinleme sonrası 'Parça oynatılamadı'/çalma durması düzeltmesi: stall tespiti güçlendirildi, playing tek başına ilerleme sayılmıyor; on-demand 0'da takılma yakalanır, canlı/radyo için 25sn güvenlik zaman aşımı eklendi. AudioBackend duration takibi eklendi. Android/Linux güncel; Windows/iOS eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
