@@ -1,8 +1,8 @@
 {
-  "version": "3.0.58",
-  "versionCode": 259,
+  "version": "3.0.59",
+  "versionCode": 260,
   "appName": "CloudTune",
-  "notes": "3.0.58+259 — Uzun süre dinleme sonrası 'Parça oynatılamadı'/çalma durması düzeltmesi: stall tespiti güçlendirildi, playing tek başına ilerleme sayılmıyor; on-demand 0'da takılma yakalanır, canlı/radyo için 25sn güvenlik zaman aşımı eklendi. AudioBackend duration takibi eklendi. Android/Linux güncel; Windows/iOS eski.",
+  "notes": "3.0.59+260 — 'Parça oynatılamadı'/uzun dinlemede durma onarımı: InnerTube başarısızsa youtube_explode fallback, RepairBot backoff/max-attempt sıfırlanma hatası düzeltildi, ready-not-playing takılması yakalandı, play() başlatma hatası errorStream'e iletildi, opening/advancing sırasında hata yarışı engellendi, radio/live zero-position 25sn grace, playAt forceDirect recovery, Room/Update servis yaşam döngüsü düzeltmeleri. Android/Linux güncel; Windows/iOS eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
