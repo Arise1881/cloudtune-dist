@@ -1,8 +1,8 @@
 {
-  "version": "3.0.53",
-  "versionCode": 254,
+  "version": "3.0.54",
+  "versionCode": 255,
   "appName": "CloudTune",
-  "notes": "3.0.53+254 — YouTube ses akisi VISIONOS oturumuyla daha hizli cozuluyor; parca calmayinca otomatik sarki atlama kaldirildi, hata ayni parcda gosteriliyor; ana sayfa kapaklari pull-to-refresh sonrasi taze yukleniyor. Turk radyolari, bes YouTube baglantisi ve kitaplik/kaldirma listeleri korundu. Otomatik guncelleme Android/Linux icindir; Windows/iOS paketleri eski.",
+  "notes": "3.0.54+255 — Ag hatasi/bos tampon sonrasi ExoPlayer completed sinyali artik baska sarkiya atlamiyor; parça ayni sırada kaliyor. Hazir oynatici havuzundaki bayat motor atiliyor. YouTube ses çözümleme, taze kapaklar, Türk radyolari ve bes YouTube baglantisi korundu. Otomatik guncelleme Android/Linux icindir; Windows/iOS paketleri eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

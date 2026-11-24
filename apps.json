@@ -12,7 +12,7 @@
       "bundleIdentifier": "com.cloudtune.app",
       "version": "3.0.52",
       "versionDate": "2026-11-22T03:56:11Z",
-      "versionDescription": "CloudTune 3.0.52+253 — iOS ikilisi CI odeme limiti nedeniyle eski sürümde. Android/Linux 3.0.53+254 yayında: hizli YouTube ses cozumu, otomatik sarki atlamaması, taze ana sayfa kapaklari, Turk radyolari ve 5 baglanti biçimi.",
+      "versionDescription": "CloudTune 3.0.52+253 — iOS ikilisi CI odeme limiti nedeniyle eski sürümde. Android/Linux 3.0.54+255 yayında: hata sonrası şarkı atlaması düzeltildi, hızlı YouTube ses çözümleme, taze ana sayfa kapakları, Türk radyolari ve 5 bağlantı biçimi.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9724594,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",

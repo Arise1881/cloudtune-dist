@@ -10,7 +10,7 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.53+254`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.54+255`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi `3.0.52+253` eski sürümde; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
@@ -115,6 +115,16 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
+
+### 3.0.54+255 — hata sonrası parça atlama düzeltmesi
+
+- Ağ hatası veya boş tampon sonrası ExoPlayer'ın ürettiği bayat `completed`
+  sinyali otomatik parça geçişi tetiklemiyor. Geçiş yalnızca parçanın bilinen
+  süresinin sonuna gelindiyse yapılıyor.
+- Hazırlanmış oynatıcı havuzunda hata veren/sonlanan motor aktif motora
+  yükseltilmeden önce atılıyor.
+- Emülatörde ağ kesilerek doğrulandı: aktif parça aynı sırada kaldı, başka
+  müziğe atlanmadı. `flutter analyze` 0 issue, `flutter test` 96/96.
 
 ### 3.0.53+254 — akış çözümleme ve kapak yenileme
 
