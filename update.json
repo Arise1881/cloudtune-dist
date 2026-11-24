@@ -1,8 +1,8 @@
 {
-  "version": "3.0.63",
-  "versionCode": 264,
+  "version": "3.0.64",
+  "versionCode": 265,
   "appName": "CloudTune",
-  "notes": "3.0.63+264 — Dinleme geçmişi temizlenince ana sayfadaki geçmişten türeyen öneri bölümleri/sanatçı adı da sıfırlanır. 3.0.62 simge varyantları ve geçmiş temizleme korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
+  "notes": "3.0.64+265 — Dinleme geçmişi temizlenince ana sayfa feed/cache yeniden kurulur; arama sekmesinde/sonuç varken temizlense bile ana sayfa öneri bölümleri ve sanatçı başlıkları sıfırlanır. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
