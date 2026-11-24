@@ -12,8 +12,10 @@
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
 reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.60+261`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
-11 paketi `3.0.52+253` eski sürümde; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
+11 paketi eski; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
+
+**Playlist düzeltmesi:** YouTube/YouTube Music kopyalanan playlist linkleri (`music.youtube.com/playlist?list=...` dahil) daha dayanıklı açılır; boş durumda “Tekrar dene” sunulur.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
