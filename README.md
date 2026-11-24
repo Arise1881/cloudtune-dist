@@ -10,7 +10,7 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.55+256`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.60+261`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi `3.0.52+253` eski sürümde; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
@@ -109,9 +109,9 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Android arm64 | `CloudTune-arm64.apk` | Çoğu modern telefon |
 | Android armv7 | `CloudTune-armv7.apk` | Eski 32-bit cihazlar |
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
-| Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — `libmpv2` otomatik gelir |
+| Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — Başlat Menüsü ikonu/kısayolu gelir, `cloudtune` komutu çalışır |
 | Linux (tar.gz) | `CloudTune-linux.tar.gz` | `libmpv2` kurulu olmalı: `sudo apt install libmpv2` |
-| Windows 11 | `CloudTune-setup.exe` | ✅ `3.0.52+253` — çalıştırınca kurar; Start Menu + masaüstü kısayolu ve müzik ilişkilendirmesi |
+| Windows 11 | `CloudTune-setup.exe` / `CloudTune-windows.zip` | ⚠️ Eski paket; güncel Windows installer bu Linux ortamında üretilemedi (CI/billing gerekir). 3.0.60+ uygulama kodunda Güncelle, GitHub sürüm sayfasını açar. |
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
