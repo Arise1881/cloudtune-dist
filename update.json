@@ -1,8 +1,8 @@
 {
-  "version": "3.0.52",
-  "versionCode": 253,
+  "version": "3.0.53",
+  "versionCode": 254,
   "appName": "CloudTune",
-  "notes": "Tum Turkiye radyolari (calisan istasyonlar, logo, HTTPS/HTTP/HLS), dokunmada aninda calma (hazir oynatici havuzu), davet linkiyle hizli oda katilimi, iki cihazli senkron, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu. Kitaplik/gecmis/calma listeleri ve tema korundu. Android/Linux guncel; Windows/iOS CI odeme limiti nedeniyle eski.",
+  "notes": "3.0.53+254 — YouTube ses akisi VISIONOS oturumuyla daha hizli cozuluyor; parca calmayinca otomatik sarki atlama kaldirildi, hata ayni parcda gosteriliyor; ana sayfa kapaklari pull-to-refresh sonrasi taze yukleniyor. Turk radyolari, bes YouTube baglantisi ve kitaplik/kaldirma listeleri korundu. Otomatik guncelleme Android/Linux icindir; Windows/iOS paketleri eski.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

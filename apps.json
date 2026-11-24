@@ -1,7 +1,7 @@
 {
   "name": "CloudTune - Müzik Player",
   "subtitle": "YouTube akışlı açık kaynak müzik çalar",
-  "description": "CloudTune, açık kaynak ve reklamsız bir müzik çalar. Şarkılar doğrudan YouTube'dan aranır ve çalınır; aracı sunucu yoktur. Sonsuz radyo, kilit ekranı/bildirim kontrolleri, çalma listeleri, sanatçı profilleri, dinleme geçmişine göre kişisel ana sayfa, cihaza indirme ve uygulama içi güncelleme içerir. youtu.be, m.youtube.com, youtube.com ve www.youtube.com bağlantıları uygulama içinde açılır (ayarlardan kapatılabilir).",
+  "description": "CloudTune, açık kaynak ve reklamsız bir müzik çalar. Şarkılar doğrudan YouTube'dan aranır ve çalınır; aracı sunucu yoktur. Sonsuz radyo, kilit ekranı/bildirim kontrolleri, çalma listeleri, sanatçı profilleri, dinleme geçmişine göre kişisel ana sayfa, cihaza indirme ve uygulama içi güncelleme içerir. youtu.be, m.youtube.com, music.youtube.com, youtube.com ve www.youtube.com bağlantıları uygulama içinde açılır (ayarlardan kapatılabilir).",
   "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/header.png",
   "tintColor": "1ED760",
@@ -12,7 +12,7 @@
       "bundleIdentifier": "com.cloudtune.app",
       "version": "3.0.52",
       "versionDate": "2026-11-22T03:56:11Z",
-      "versionDescription": "CloudTune 3.0.52+253 — Tum Turkiye radyolari ve logolari, aninda calma, davet linkiyle hizli katilim, iki cihazli oda senkronu, sohbet ve profil fotografi, mobil veri/Wi-Fi optimizasyonu, 28 dil",
+      "versionDescription": "CloudTune 3.0.52+253 — iOS ikilisi CI odeme limiti nedeniyle eski sürümde. Android/Linux 3.0.53+254 yayında: hizli YouTube ses cozumu, otomatik sarki atlamaması, taze ana sayfa kapaklari, Turk radyolari ve 5 baglanti biçimi.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9724594,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",

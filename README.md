@@ -10,11 +10,10 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+, Android TV / Google TV, Linux ve Windows 11 için yayında. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+ ve Linux için `3.0.53+254`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
-11 paketi `3.0.52+253`; uygulama içi güncelleme Windows'ta GitHub sürüm sayfasına
-yönlendirir. iOS kaynak/CI hazır, mevcut IPA eski sürümde.
-Hesap, abonelik veya PC sunucusu gerekmez.
+11 paketi `3.0.52+253` eski sürümde; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
+Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
@@ -116,6 +115,20 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
+
+### 3.0.53+254 — akış çözümleme ve kapak yenileme
+
+- YouTube ses adresi resmî InnerTube `VISIONOS` istemcisi ve oturum kimliğiyle
+  çözülüyor; ölü yansıma sunucuları beklenmiyor. Parça açılışı ölçümde 196–483 ms.
+- Akış hatasında otomatik başka parçaya geçiş kaldırıldı; parça aynı sırada
+  kalıyor ve Türkçe hata gösteriliyor. Radyo modu da aynı kuralı izliyor.
+- Ana sayfa kapakları iki CDN yolunu deniyor, görüntülenen boyuta göre decode
+  ediliyor ve pull-to-refresh sonrası yeni cache nesliyle taze indiriliyor.
+- Türk radyoları, `youtu.be` / `m.youtube.com` / `music.youtube.com` /
+  `youtube.com` / `www.youtube.com` bağlantıları ve kullanıcı verileri korundu.
+- Doğrulama: `flutter analyze` 0 issue, `flutter test` 91/91; emülatörde
+  `PLAYING`, ilerleyen pozisyon, radyo çalma, kapak yenileme ve YouTube
+  aktivitesi olmadığı kontrol edildi.
 
 ### 3.0.46+247 — arama sonuçları sabit kalır
 
