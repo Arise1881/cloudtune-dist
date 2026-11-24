@@ -1,8 +1,8 @@
 {
-  "version": "3.0.64",
-  "versionCode": 265,
+  "version": "3.0.65",
+  "versionCode": 266,
   "appName": "CloudTune",
-  "notes": "3.0.64+265 — Dinleme geçmişi temizlenince ana sayfa feed/cache yeniden kurulur; arama sekmesinde/sonuç varken temizlense bile ana sayfa öneri bölümleri ve sanatçı başlıkları sıfırlanır. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
+  "notes": "3.0.65+266 — Fresh install/ilk açılışta Android equalizer init hatası alınırsa equalizer kapatılıp parça 1 kez yeniden denenir. Dinleme geçmişi temizle son şarkıyı Dinlemeye devam et'te bırakır; ana sayfa feed'e dokunmaz. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
