@@ -111,7 +111,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
 | Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — `libmpv2` otomatik gelir |
 | Linux (tar.gz) | `CloudTune-linux.tar.gz` | `libmpv2` kurulu olmalı: `sudo apt install libmpv2` |
-| Windows 11 | `CloudTune-windows.zip` | ✅ `3.0.52+253` — ZIP'i çıkarıp `cloudtune.exe`'yi çalıştırın |
+| Windows 11 | `CloudTune-setup.exe` | ✅ `3.0.52+253` — çalıştırınca kurar; Start Menu + masaüstü kısayolu ve müzik ilişkilendirmesi |
 | iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
@@ -152,7 +152,7 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
 - **Linux:** Stripped binary, `ldd` ile doğrulanan `libmpv2` bağımlılığı,
   sürüm+build numaralı deb (`3.0.44-245`), doğru `StartupWMClass`,
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
-- **Windows:** MSVC LTCG + zorunlu `flutter_windows.dll`. `3.0.52+253` ZIP yayında;
+- **Windows:** MSVC LTCG + zorunlu `flutter_windows.dll`. `3.0.52+253` Setup.exe yayında;
   güncelleme bildirimi ZIP indirmez, GitHub sürüm sayfasını açar.
 - **iOS:** İmzasız IPA obfuscation ile küçültüldü; mevcut paket CI ödeme limiti
   nedeniyle eski sürümde kaldı.
@@ -216,7 +216,7 @@ Kurulabilir dosyalar depoda değil,
 [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 asset'lerinde tutulur: `CloudTune-arm64.apk`, `CloudTune-armv7.apk`,
 `CloudTune-x86_64.apk`, `CloudTune-universal.apk`, `CloudTune-linux.deb`,
-`CloudTune-linux.tar.gz`, `CloudTune-windows.zip`, `CloudTune.ipa`.
+`CloudTune-linux.tar.gz`, `CloudTune-setup.exe`, `CloudTune.ipa`.
 
 ---
 
