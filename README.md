@@ -10,7 +10,7 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+, Linux ve Windows 11 için yayında. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android 7.0+, Android TV / Google TV, Linux ve Windows 11 için yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi `3.0.52+253`; uygulama içi güncelleme Windows'ta GitHub sürüm sayfasına
 yönlendirir. iOS kaynak/CI hazır, mevcut IPA eski sürümde.
@@ -106,6 +106,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Platform | Dosya | Not |
 |---|---|---|
 | Android — tüm cihazlar | `CloudTune-universal.apk` | Mimari bilmiyorsanız bunu seçin (Android 7.0+) |
+| Android TV / Google TV / Fire TV | [CloudTune-androidtv.apk](https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-androidtv.apk) | TV ana ekranında görünür; uzaktan kumanda odağı ve büyük arayüz otomatik |
 | Android arm64 | `CloudTune-arm64.apk` | Çoğu modern telefon |
 | Android armv7 | `CloudTune-armv7.apk` | Eski 32-bit cihazlar |
 | Android x86_64 | `CloudTune-x86_64.apk` | x86 tablet / emülatör |
