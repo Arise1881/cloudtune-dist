@@ -1,8 +1,8 @@
 {
-  "version": "3.0.61",
-  "versionCode": 262,
+  "version": "3.0.62",
+  "versionCode": 263,
   "appName": "CloudTune",
-  "notes": "3.0.61+262 — YouTube/YouTube Music kopyalanan playlist linkleri (si/drli dahil) daha dayanıklı açılır: InnerTube browse fallback + continuation, PlaylistPage 'Tekrar dene'. Önceki 3.0.60 playback/Linux/Windows iyileştirmeleri korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web korunur.",
+  "notes": "3.0.62+263 — Android Ayarlar'dan başlatıcı simgesi seçilebilir (Varsayılan/Mavi/Mor/Turuncu/Siyah-Beyaz) ve dinleme geçmişi temizlenebilir. 3.0.61 playlist açma dayanıklılığı korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
