@@ -1,8 +1,8 @@
 {
-  "version": "3.0.60",
-  "versionCode": 261,
+  "version": "3.0.61",
+  "versionCode": 262,
   "appName": "CloudTune",
-  "notes": "3.0.60+261 — Playback hata yüzeyi ve kurtarma: gerçek errorStream/detay hata banner'ında gösterilir (maskelenmiş hata azaltıldı), surfaced error durumunda oynat/devam/retry ve bağlantı geri gelince otomatik recovery, ready-not-playing stall yakalama, prepared swap hız reapply, RepairBot track-change reset, radio/Room guard'ları. Android/Linux güncel; Windows/iOS eski paketler korunur.",
+  "notes": "3.0.61+262 — YouTube/YouTube Music kopyalanan playlist linkleri (si/drli dahil) daha dayanıklı açılır: InnerTube browse fallback + continuation, PlaylistPage 'Tekrar dene'. Önceki 3.0.60 playback/Linux/Windows iyileştirmeleri korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
