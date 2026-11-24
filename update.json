@@ -1,8 +1,8 @@
 {
-  "version": "3.0.62",
-  "versionCode": 263,
+  "version": "3.0.63",
+  "versionCode": 264,
   "appName": "CloudTune",
-  "notes": "3.0.62+263 — Android Ayarlar'dan başlatıcı simgesi seçilebilir (Varsayılan/Mavi/Mor/Turuncu/Siyah-Beyaz) ve dinleme geçmişi temizlenebilir. 3.0.61 playlist açma dayanıklılığı korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
+  "notes": "3.0.63+264 — Dinleme geçmişi temizlenince ana sayfadaki geçmişten türeyen öneri bölümleri/sanatçı adı da sıfırlanır. 3.0.62 simge varyantları ve geçmiş temizleme korunur. Sadece mobil Android OTA güncellendi; TV/Windows/IPA/web/Linux korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

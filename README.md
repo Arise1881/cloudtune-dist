@@ -10,12 +10,12 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android mobil için `3.0.62+263`, Linux için `3.0.61+262`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android mobil için `3.0.63+264`, Linux için `3.0.61+262`; Android TV / Google TV paketi ayrı yayında. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi eski; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
 
-**3.0.62+263 (mobil Android OTA):** Ayarlar > Görünüm’den başlatıcı simgesi seçilebilir (Varsayılan/Mavi/Mor/Turuncu/Siyah-Beyaz) ve dinleme geçmişi temizlenebilir. 3.0.61 playlist açma dayanıklılığı korunur. TV/Windows/IPA/web/Linux varlıkları bu OTA’da değiştirilmedi.
+**3.0.63+264 (mobil Android OTA):** Dinleme geçmişi temizlenince ana sayfadaki geçmişten türeyen öneri bölümleri/sanatçı adı da sıfırlanır. 3.0.62 simge varyantları ve geçmiş temizleme korunur. TV/Windows/IPA/web/Linux varlıkları bu OTA’da değiştirilmedi.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
