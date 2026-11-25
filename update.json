@@ -2,7 +2,7 @@
   "version": "3.0.65",
   "versionCode": 266,
   "appName": "CloudTune",
-  "notes": "3.0.65+266 — Mobil: equalizer init kurtarma ve dinleme geçmişi temizleme davranışı. Linux paketleri ayrıca 3.0.66+267 olarak güncellendi (pkexec apt-get --reinstall, yeniden başlatma gerekir). Mobil Android APK'ları, TV/Windows/IPA/web korunur.",
+  "notes": "3.0.65+266 — Mobil: equalizer init kurtarma ve dinleme geçmişi temizleme davranışı. Linux 3.0.66+267, Android TV paketi 3.0.66+267 olarak güncellendi. Mobil Android APK'ları, Windows, IPA/web korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
