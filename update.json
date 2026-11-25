@@ -12,6 +12,7 @@
     "linux-targz": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-linux.tar.gz",
     "web": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-web.zip",
     "ios": "altstore://source?url=https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/apps.json",
-    "windows": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-windows.zip"
+    "windows": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-windows.zip",
+    "windows-exe": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-setup.exe"
   }
 }
