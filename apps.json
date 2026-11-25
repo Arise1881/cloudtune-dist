@@ -10,9 +10,9 @@
     {
       "name": "CloudTune",
       "bundleIdentifier": "com.cloudtune.app",
-      "version": "3.0.55",
-      "versionDate": "2026-11-24T09:30:43Z",
-      "versionDescription": "CloudTune 3.0.55+256 — Android/Linux güncel: uzun süreli kullanım güvenilirliği, ağ kesilince şarkı atlamama, ana sayfa kapaklarının yüklenmesi. Mevcut IPA eski sürümde.",
+      "version": "3.0.52",
+      "versionDate": "2026-11-25T08:06:27Z",
+      "versionDescription": "CloudTune 3.0.52+253 — Kullanıcının sağladığı IPA olduğu gibi yüklendi (bu Linux ortamında yeni iOS build üretilemedi). Android/Linux/TV daha güncel sürümlerde.",
       "downloadURL": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune.ipa",
       "size": 9724594,
       "iconURL": "https://raw.githubusercontent.com/Arise1881/cloudtune-dist/main/icon.png",

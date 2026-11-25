@@ -19,6 +19,8 @@ Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu ge
 
 **3.0.66+267 (yalnızca Android TV):** `CloudTune-androidtv.apk` en güncel build ile güncellendi. Mobil Android APK’ları, Linux, Windows, IPA/web değiştirilmedi.
 
+**3.0.52+253 (yalnızca iOS IPA, olduğu gibi):** Kullanıcının verdiği `CloudTune.ipa` yüklendi; sürüm 3.0.52+253. Yeni iOS build bu Linux ortamında üretilemedi. Android/Linux/Windows/TV değiştirilmedi.
+
 **3.0.65+266 (mobil Android OTA):** Equalizer init kurtarma ve dinleme geçmişi temizleme davranışı korunur. Mobil Android APK’ları, Linux, Windows, IPA/web bu adımda değiştirilmedi.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
@@ -118,7 +120,7 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | Linux (deb) | `CloudTune-linux.deb` | `sudo apt install ./CloudTune-linux.deb` — Başlat Menüsü ikonu/kısayolu gelir, `cloudtune` komutu çalışır |
 | Linux (tar.gz) | `CloudTune-linux.tar.gz` | `libmpv2` kurulu olmalı: `sudo apt install libmpv2` |
 | Windows 11 | `CloudTune-setup.exe` / `CloudTune-windows.zip` | ⚠️ Eski paket; güncel Windows installer bu Linux ortamında üretilemedi (CI/billing gerekir). 3.0.60+ uygulama kodunda Güncelle, GitHub sürüm sayfasını açar. |
-| iOS | `apps.json` kaynağı | ⚠️ Mevcut IPA eski; aynı CI engeli nedeniyle güncellenemedi |
+| iOS | `apps.json` kaynağı | ⚠️ 3.0.52+253 IPA yüklendi (kullanıcı tarafından verildi; bu Linux ortamında yeni iOS build üretilemedi) |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
@@ -197,8 +199,7 @@ Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/release
   `/usr/bin/cloudtune` kısayolu ve tarball içinde masaüstü dosyası.
 - **Windows:** MSVC LTCG + zorunlu `flutter_windows.dll`. `3.0.52+253` Setup.exe yayında;
   güncelleme bildirimi ZIP indirmez, GitHub sürüm sayfasını açar.
-- **iOS:** İmzasız IPA obfuscation ile küçültüldü; mevcut paket CI ödeme limiti
-  nedeniyle eski sürümde kaldı.
+- **iOS:** 3.0.52+253 IPA kullanıcı tarafından verildiği gibi yüklendi; yeni iOS build bu Linux ortamında üretilemedi.
 - **Uygulama:** Oda presence/ack senkronu, doğru kişi sayısı, avatar/discovery
   temizliği; yerel Whisper, indirme/kaydetme, sıralanabilir playlist ve TR/EN dil.
 
