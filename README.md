@@ -10,12 +10,12 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android mobil için `3.0.70+271` (OTA). Linux/Android TV paketleri manifest uyumu için 3.0.70+271 hizalandı; Windows/IPA/web korunur. Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm `3.0.72+272` (OTA). Linux + Android mobil + Android TV güncellendi; Windows/IPA/web korunur. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi eski; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
 
-**3.0.70+271 (mobil Android OTA):** Bildirim dokunuşunda uygulama açılışı düzeltildi; Honor sihirli kapsül görsel dokunuşu OEM kısıtı nedeniyle garanti edilemez. Şarkı sayfasında tekrar aktif rengi kaldırıldı, indirme ikonu sola kaydırıldı, kontrol satırı taşması düzeltildi. 10 dk hareketsizlik oto-kapanma yalnızca çalmıyorken tetiklenir. Windows/IPA/web korunur; Linux/TV manifest uyumu için hizalandı.
+**3.0.72+272 (Linux + Android + TV OTA):** Linux güncelleme kurulumundan sonra uygulama kendini yeniden başlatır ve tekrar güncelle promptu göstermez. Oynatma listesi/kapak görsellerinde göreli/protokol-göreli URL’ler normalize edildi. Windows/IPA/web korunur.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
@@ -117,6 +117,16 @@ anahtarıyla uygulama içi açma kapatılabilir.
 | iOS | `apps.json` kaynağı | ⚠️ 3.0.52+253 IPA yüklendi (kullanıcı tarafından verildi; bu Linux ortamında yeni iOS build üretilemedi) |
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
+
+### 3.0.72+272 — Linux + Android + TV OTA
+
+- Linux: güncelleme kurulumu başarılı olunca uygulama kendini yeniden başlatır;
+  tekrar aynı güncelle promptu gösterilmez.
+- Linux/oynatma listeleri: göreli ve protokol-göreli kapak URL’leri normalize
+  edildi (`//`, `/vi/...`, mutlak http/https korunur); playlist/kapak görselleri
+  yüklenir.
+- Android/TV aynı kod tabanı ile 3.0.72+272’ye hizalandı.
+- Windows/IPA/web korunur.
 
 ### 3.0.70+271 — Android mobil OTA
 

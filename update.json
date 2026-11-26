@@ -1,8 +1,8 @@
 {
-  "version": "3.0.70",
-  "versionCode": 271,
+  "version": "3.0.72",
+  "versionCode": 272,
   "appName": "CloudTune",
-  "notes": "3.0.70+271 — Android mobil OTA: Bildirim dokunuşunda uygulama açılışı düzeltildi; Honor sihirli kapsül görsel dokunuşu OEM kısıtı nedeniyle garanti edilemez. Şarkı sayfasında tekrar aktif rengi kaldırıldı, indirme ikonu sola kaydırıldı, kontrol satırı taşması düzeltildi. 10 dk hareketsizlik oto-kapanma yalnızca çalmıyorken tetiklenir. Windows/IPA/web korunur; Linux/TV manifest uyumu için hizalandı.",
+  "notes": "3.0.72+272 — Linux: güncelleme sonrası uygulama kendini yeniden başlatır, tekrar güncelle promptu kalmaz; oynatma listesi/kapak göreli URL görselleri normalize edildi. Android/TV aynı kodla hizalandı. Windows/IPA/web korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
