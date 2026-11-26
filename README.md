@@ -118,18 +118,21 @@ anahtarıyla uygulama içi açma kapatılabilir.
 
 Tüm dosyalar: [son sürüm](https://github.com/Arise1881/cloudtune-dist/releases/tag/cloudtune-latest)
 
-### 3.0.55+256 — uzun süreli kullanım güvenilirliği
+### 3.0.70+271 — Android mobil OTA
 
-- OTA artık platforma uygun dosyayı indiriyor; yarım kalan dosya siliniyor,
-  hazırlanmış dosya sürüm ve dosya adıyla doğrulanıyor.
-- Hızlı parça geçişlerinde kaynak açılışları sıraya alındı; bayat hata yeni
-  parçanın üzerine yazmıyor. Ağ kesilince parça aynı sırada kalıyor.
-- Onarıcı üstel geri çekilme kullanıyor; radyo listesi ve oda keşfi kendiliğinden
-  yeniden deneniyor, sızan MQTT istemcileri temizleniyor.
-- Invidious görece kapak adresleri YouTube CDN'ine bağlanarak mutlak hale
-  getirildi; ana sayfa kapakları yükleniyor.
-- Doğrulama: `flutter analyze` 0 issue, `flutter test` 103/103; emülatörde
-  çalma, bildirim, çevrimdışı regresyon ve kapak önbelleği kontrol edildi.
+- Bildirim dokunuşunda uygulama açılışı düzeltildi (`notificationClicked` ->
+  `bringToFront`/root). Honor/MagicOS sihirli kapsül görsel dokunuşu standart
+  MediaSession/bildirim intent yolunu tetiklemiyor; OEM kısıtı olarak kaldı.
+- Arama/kesinti sonrası otomatik devam ettirme kaldırıldı; çalma kullanıcı
+  aksiyonuyla sürer.
+- 10 dk hareketsizlik oto-kapanma yalnızca gerçekten çalmıyor/yüklenmiyor/
+  açılmıyor/ilerlemiyor/kurtarılıyor değilken tetiklenir.
+- Şarkı sayfası: tekrar aktif renk vurgusu kaldırıldı, indirme ikonu sola
+  kaydırıldı, kontrol satırı taşması düzeltildi.
+- Windows/IPA/web korunur; Linux/TV paketleri manifest uyumu için 3.0.70+271
+  hizalandı.
+- Doğrulama: `flutter analyze` temiz, `flutter test` 106/106; Honor 90'a
+  release arm64 APK kuruldu.
 
 ### 3.0.54+255 — hata sonrası parça atlama düzeltmesi
 
