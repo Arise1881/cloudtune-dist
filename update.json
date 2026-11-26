@@ -1,8 +1,8 @@
 {
-  "version": "3.0.65",
-  "versionCode": 266,
+  "version": "3.0.67",
+  "versionCode": 268,
   "appName": "CloudTune",
-  "notes": "3.0.65+266 — Mobil: equalizer init kurtarma ve dinleme geçmişi temizleme davranışı. Linux 3.0.66+267, Android TV 3.0.66+267 olarak güncellendi. iOS IPA 3.0.52+253 olduğu gibi yüklendi (en güncel değil). Mobil Android APK'ları, Windows/web korunur.",
+  "notes": "3.0.67+268 — Android: bildirim/dinamik ada görseline dokununca uygulama açılır; telefon görüşmesi/kulaklık kesintilerinde doğru duraklatma-devam; 10 dk müzik dinlenmezse uygulama otomatik durur. Arayüz: ana sayfa indirme simgesi hizası, şarkı sayfası kapak/indirme yerleşimi, yazı ve alt gezinme çubuğu uyumu. Mobil Android, Linux ve Android TV güncellendi; Windows/IPA/web korunur.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",

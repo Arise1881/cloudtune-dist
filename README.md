@@ -10,18 +10,12 @@
 </p>
 
 **CloudTune**, şarkıları doğrudan cihazdan YouTube üzerinden arayıp çalan,
-reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android mobil için `3.0.65+266`, Linux için `3.0.66+267`; Android TV / Google TV paketi güncel (3.0.66+267). Linux oynatma
+reklamsız ve açık kaynak bir müzik uygulamasıdır. Güncel sürüm Android mobil, Linux ve Android TV için `3.0.67+268`. Linux oynatma
 motoru `media_kit + libmpv`'dir; `deb` paketi `libmpv2`'yi otomatik kurar. Windows
 11 paketi eski; iOS kaynak/CI hazır, mevcut IPA eski sürümde.
 Otomatik güncelleme Android/Linux içindir. Hesap, abonelik veya PC sunucusu gerekmez.
 
-**3.0.66+267 (yalnızca Linux):** Linux güncellemesi indirilen `.deb` paketini `pkexec apt-get install --reinstall` ile kurar; aynı güncellemenin tekrar görünmesi/dosyaların değişmemesi sorunu hedeflenir. Kurulum sonrası yeniden başlatma gerekir.
-
-**3.0.66+267 (yalnızca Android TV):** `CloudTune-androidtv.apk` en güncel build ile güncellendi. Mobil Android APK’ları, Linux, Windows, IPA/web değiştirilmedi.
-
-**3.0.52+253 (yalnızca iOS IPA, olduğu gibi):** Kullanıcının verdiği `CloudTune.ipa` yüklendi; sürüm 3.0.52+253. Yeni iOS build bu Linux ortamında üretilemedi. Android/Linux/Windows/TV değiştirilmedi.
-
-**3.0.65+266 (mobil Android OTA):** Equalizer init kurtarma ve dinleme geçmişi temizleme davranışı korunur. Mobil Android APK’ları, Linux, Windows, IPA/web bu adımda değiştirilmedi.
+**3.0.67+268 (mobil Android, Linux, Android TV OTA):** Android bildirim/dinamik ada görseline dokununca uygulama açılır. Telefon görüşmesi/ses kesintilerinde oynatma doğru duraklatılır-devam eder; kulaklık çıkınca duraklatılır. 10 dk müzik dinlenmezse uygulama otomatik durdurulur. Ana sayfa indirme simgesi hizası, şarkı sayfası kapak/indirme yerleşimi, yazı ve alt gezinme çubuğu uyumu iyileştirildi. Windows/IPA/web değiştirilmedi.
 
 Güncel sürüm ve indirme bağlantıları: **`update.json`** — uygulama içi
 güncelleme de bu dosyayı okur.
