@@ -1,8 +1,8 @@
 {
-  "version": "3.0.67",
-  "versionCode": 268,
+  "version": "3.0.68",
+  "versionCode": 269,
   "appName": "CloudTune",
-  "notes": "3.0.67+268 — Android mobil OTA: bildirim/dinamik ada görseline dokununca uygulama açılır; telefon görüşmesi/kulaklık kesintilerinde doğru duraklatma-devam; 10 dk müzik dinlenmezse uygulama otomatik durur. Arayüz/hizalama düzeltmeleri. Manifest uyumu için Linux/TV paketleri de 3.0.67+268 olarak hizalandı; Windows/IPA/web korunur.",
+  "notes": "3.0.68+269 — Android mobil OTA: bildirim/dinamik ada dokunuşu dinleyicisi, indirme iptal düğmesi, şarkı sayfası indirme simgesi konumu düzeltmesi, YT kapak kalite zinciri (maxres/sd/hq) ve büyük kapak iyileştirmesi. Arama kesintisi/10 dk hareketsizlik/duyarlı alt çubuk düzeltmeleri korunur. Windows/IPA/web korunur; Linux/TV paketleri manifest döngüsü olmaması için 3.0.68 hizalandı.",
   "platforms": {
     "android-arm64": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-arm64.apk",
     "android-armv7": "https://github.com/Arise1881/cloudtune-dist/releases/download/cloudtune-latest/CloudTune-armv7.apk",
